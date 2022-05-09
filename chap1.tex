@@ -1,0 +1,30 @@
+\evenchapter[La nouvelle feuille de style \ensg]{La feuille\newline de style \ensg}
+
+\textit{Voici la version 2 de la feuille de style \ensg. }
+
+\section{Les fichiers}
+\begin{itemize}
+\item \texttt{themeensg.cls} : contient les personnalisations et macros utiles
+\item \texttt{jury.tex} : pour la feuille de présentation du jury
+\item le dossier \texttt{images} : il doit contenir toutes les images, il contient déjà le dossier logo avec celui de l'\ensg
+\item \texttt{bibliographie.bib} contient la bibliographie
+\end{itemize}
+
+\section{Commandes personnalisées}
+
+\begin{itemize}
+\item \verb!\newevenpage! : identique à \verb!\newpage! mais en insère une page blanche de façon à débuter la nouvelle page sur un numéro de page impaire.
+\item \verb!\evenchapter{titre}! : démarre un nouveau chapitre sur une page impaire,\\ \verb!\evenchapter[titre sommaire]{titre}! fonctionne aussi mais pas \verb!\evenchapter*{titre}!
+\item idem pour \verb!\evenpart{titre}!
+\end{itemize}
+
+\section{Fichier source de cette doc}
+Ce fichier \texttt{tex} contient toute la structure d'un rapport mais une bonne partie est désactivée car commentée par l'environnement \verb!\begin{comment} ... \end{comment}!
+
+\subsection{Une sous-partie...}
+
+On évitera si possible de faire des sous-sous-parties (\verb!\subsubsection!). Si vous en avez besoin, peut-être faut-il revoir la structures du document...
+
+Au passage voici le code pour appeler une référence de la biblio \cite{globalpositioning} : \verb!\cite{globalpositioning}!
+
+Pour plus d'infos sur la bibli, aller sur \url{http://bertrandmasson.free.fr/index.php?article27/}
