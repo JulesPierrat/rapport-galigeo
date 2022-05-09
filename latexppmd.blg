@@ -1,0 +1,17 @@
+[0] Config.pm:307> INFO - This is Biber 2.17
+[0] Config.pm:310> INFO - Logfile is 'latexppmd.blg'
+[154] biber-MSWIN32:340> INFO - === 
+[196] Biber.pm:418> INFO - Reading 'latexppmd.bcf'
+[330] Biber.pm:969> INFO - Using all citekeys in bib section 0
+[345] Biber.pm:4383> INFO - Processing section 0
+[360] Biber.pm:4574> INFO - Looking for bibtex file 'latexppmd.bib' for section 0
+[417] bibtex.pm:1713> INFO - LaTeX decoding ...
+[482] bibtex.pm:1518> INFO - Found BibTeX data source 'latexppmd.bib'
+[704] UCollate.pm:68> INFO - Overriding locale 'fr-FR' defaults 'variable = shifted' with 'variable = non-ignorable'
+[705] UCollate.pm:68> INFO - Overriding locale 'fr-FR' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[705] Biber.pm:4203> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'fr-FR'
+[705] Biber.pm:4209> INFO - No sort tailoring available for locale 'fr-FR'
+[759] bbl.pm:654> INFO - Writing 'latexppmd.bbl' with encoding 'UTF-8'
+[782] bbl.pm:757> INFO - Output to latexppmd.bbl
+[783] Biber.pm:130> WARN - legacy month field 'june' in entry 'Gabalda2000' is not an integer - this will probably not sort properly.
+[783] Biber.pm:132> INFO - WARNINGS: 1
