@@ -79,7 +79,7 @@
       <file>RAPPORT_ING3_PIERRAT_Jules.bcf</file>
     </requires>
     <requires type="editable">
-      <file>latexppmd.bib</file>
+      <file>RAPPORT_ING3_PIERRAT_Jules.bib</file>
     </requires>
   </external>
 </requests>

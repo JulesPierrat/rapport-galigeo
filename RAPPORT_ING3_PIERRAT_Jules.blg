@@ -1,17 +1,9 @@
 [0] Config.pm:307> INFO - This is Biber 2.17
 [0] Config.pm:310> INFO - Logfile is 'RAPPORT_ING3_PIERRAT_Jules.blg'
-[117] biber-MSWIN32:340> INFO - === 
-[155] Biber.pm:418> INFO - Reading 'RAPPORT_ING3_PIERRAT_Jules.bcf'
-[266] Biber.pm:969> INFO - Using all citekeys in bib section 0
-[293] Biber.pm:4383> INFO - Processing section 0
-[306] Biber.pm:4574> INFO - Looking for bibtex file 'latexppmd.bib' for section 0
-[355] bibtex.pm:1713> INFO - LaTeX decoding ...
-[458] bibtex.pm:1518> INFO - Found BibTeX data source 'latexppmd.bib'
-[654] UCollate.pm:68> INFO - Overriding locale 'fr-FR' defaults 'variable = shifted' with 'variable = non-ignorable'
-[664] UCollate.pm:68> INFO - Overriding locale 'fr-FR' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[665] Biber.pm:4203> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'fr-FR'
-[665] Biber.pm:4209> INFO - No sort tailoring available for locale 'fr-FR'
-[714] bbl.pm:654> INFO - Writing 'RAPPORT_ING3_PIERRAT_Jules.bbl' with encoding 'UTF-8'
-[731] bbl.pm:757> INFO - Output to RAPPORT_ING3_PIERRAT_Jules.bbl
-[731] Biber.pm:130> WARN - legacy month field 'june' in entry 'Gabalda2000' is not an integer - this will probably not sort properly.
-[731] Biber.pm:132> INFO - WARNINGS: 1
+[104] biber-MSWIN32:340> INFO - === 
+[151] Biber.pm:418> INFO - Reading 'RAPPORT_ING3_PIERRAT_Jules.bcf'
+[267] Biber.pm:969> INFO - Using all citekeys in bib section 0
+[290] Biber.pm:4383> INFO - Processing section 0
+[302] Biber.pm:4574> INFO - Looking for bibtex file 'latexppmd.bib' for section 0
+[689] Utils.pm:409> ERROR - Cannot find 'latexppmd.bib'!
+[689] Biber.pm:135> INFO - ERRORS: 1

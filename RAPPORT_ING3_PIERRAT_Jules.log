@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.5.9)  10 MAY 2022 09:44
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.5.9)  10 MAY 2022 14:53
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1011,16 +1011,40 @@ LaTeX Warning: Hyper reference `acro:ENSG' on page 5 undefined on input line 141
 LaTeX Warning: Hyper reference `acro:ENSG' on page 5 undefined on input line 141.
 
 
-LaTeX Warning: Hyper reference `acro:GNSS' on page 5 undefined on input line 142.
+LaTeX Warning: Hyper reference `acro:ML' on page 5 undefined on input line 142.
 
 
-LaTeX Warning: Hyper reference `acro:GNSS' on page 5 undefined on input line 142.
+LaTeX Warning: Hyper reference `acro:ML' on page 5 undefined on input line 142.
 
 
-LaTeX Warning: Hyper reference `acro:GPS' on page 5 undefined on input line 143.
+LaTeX Warning: Hyper reference `acro:DNN' on page 5 undefined on input line 143.
 
 
-LaTeX Warning: Hyper reference `acro:GPS' on page 5 undefined on input line 143.
+LaTeX Warning: Hyper reference `acro:DNN' on page 5 undefined on input line 143.
+
+
+LaTeX Warning: Hyper reference `acro:RNN' on page 5 undefined on input line 144.
+
+
+LaTeX Warning: Hyper reference `acro:RNN' on page 5 undefined on input line 144.
+
+
+LaTeX Warning: Hyper reference `acro:LSTM' on page 5 undefined on input line 145.
+
+
+LaTeX Warning: Hyper reference `acro:LSTM' on page 5 undefined on input line 145.
+
+
+LaTeX Warning: Hyper reference `acro:CNN' on page 5 undefined on input line 146.
+
+
+LaTeX Warning: Hyper reference `acro:CNN' on page 5 undefined on input line 146.
+
+
+LaTeX Warning: Hyper reference `acro:SVM' on page 5 undefined on input line 147.
+
+
+LaTeX Warning: Hyper reference `acro:SVM' on page 5 undefined on input line 147.
 
 [5
 
@@ -1065,7 +1089,7 @@ Overfull \hbox (77.66618pt too wide) in paragraph at lines 28--29
  []
 
 )
-Overfull \hbox (14.72208pt too wide) in paragraph at lines 30--158
+Overfull \hbox (14.72208pt too wide) in paragraph at lines 30--162
 []\T1/lmss/m/n/10.95 Pour plus d'in-fos sur la bi-bli, al-ler sur [][]$\T1/lmtt/m/n/10.95 http : / / bertrandmasson . free . fr / index . php ? article27/$[][] 
  []
 
@@ -1077,65 +1101,42 @@ Overfull \hbox (14.72208pt too wide) in paragraph at lines 30--158
 ] [11
 
 ] [12]
-Overfull \hbox (8.4343pt too wide) in paragraph at lines 175--175
-[]\T1/lmss/m/n/10.95 Michel []\T1/lmr/m/sc/10.95 Capderou[]\T1/lmss/m/n/10.95 . \T1/lmss/m/sl/10.95 Sa-tel-lites : or-bites et mis-sions\T1/lmss/m/n/10.95 . Sprin-ger, 2002, p. 511. \T1/lmr/m/sc/10.95 isbn \T1/lmss/m/n/10.95 : 9782287597725. 
- []
 
-[13
+LaTeX Warning: Empty bibliography on input line 179.
 
-]
-Overfull \hbox (4.64899pt too wide) in paragraph at lines 175--175
-[]\T1/lmss/m/n/10.95 Gunter []\T1/lmr/m/sc/10.95 Seeber[]\T1/lmss/m/n/10.95 . \T1/lmss/m/sl/10.95 Sa-tel-lite Geo-desy\T1/lmss/m/n/10.95 . 2 Re-vi-sed. Wal-ter de Gruy-ter, sept. 2003. \T1/lmr/m/sc/10.95 isbn \T1/lmss/m/n/10.95 : 3110175495. 
- []
-
-
-Package fancyhdr Warning: \headheight is too small (12.5pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-1.09999pt}.
-
-[14]
-
-Package fancyhdr Warning: \headheight is too small (12.5pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-1.09999pt}.
-
-[15] [16] (./RAPPORT_ING3_PIERRAT_Jules.lof)
+(./RAPPORT_ING3_PIERRAT_Jules.lof)
 \tf@lof=\write6
 \openout6 = `RAPPORT_ING3_PIERRAT_Jules.lof'.
 
- [17] [18] (./RAPPORT_ING3_PIERRAT_Jules.lot)
+ [13] [14] (./RAPPORT_ING3_PIERRAT_Jules.lot)
 \tf@lot=\write7
 \openout7 = `RAPPORT_ING3_PIERRAT_Jules.lot'.
 
- [19] [20] (./RAPPORT_ING3_PIERRAT_Jules.ann)
+ [15] [16] (./RAPPORT_ING3_PIERRAT_Jules.ann)
 \tf@ann=\write8
 \openout8 = `RAPPORT_ING3_PIERRAT_Jules.ann'.
 
- [21
+ [17
 
-] [22]
+] [18]
 Annexe A.
-
-Overfull \hbox (40.99998pt too wide) in paragraph at lines 188--188
-[][] 
- []
-
-[23
-
-] [24]
-Annexe B.
 
 Overfull \hbox (40.99998pt too wide) in paragraph at lines 192--192
 [][] 
  []
 
+[19
+
+] [20]
+Annexe B.
+
+Overfull \hbox (40.99998pt too wide) in paragraph at lines 196--196
+[][] 
+ []
+
 
 AED: lastpage setting LastPage
-[25
+[21
 
 ] (./RAPPORT_ING3_PIERRAT_Jules.aux (./chap1.aux))
 
@@ -1156,18 +1157,18 @@ Package logreq Info: Writing requests to 'RAPPORT_ING3_PIERRAT_Jules.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 22920 strings out of 478300
- 395413 string characters out of 5849124
- 1117803 words of memory out of 5000000
- 40655 multiletter control sequences out of 15000+600000
+ 22713 strings out of 478300
+ 387794 string characters out of 5849124
+ 1110890 words of memory out of 5000000
+ 40491 multiletter control sequences out of 15000+600000
  552105 words of font info for 87 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  85i,11n,90p,1195b,1913s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {c:/texlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}<c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmss10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmss12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmss8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmsso10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmtt10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lm/lmtt12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on RAPPORT_ING3_PIERRAT_Jules.pdf (29 pages, 411844 bytes).
+Output written on RAPPORT_ING3_PIERRAT_Jules.pdf (25 pages, 389595 bytes).
 PDF statistics:
- 297 PDF objects out of 1000 (max. 8388607)
- 243 compressed objects within 3 object streams
- 87 named destinations out of 1000 (max. 500000)
+ 231 PDF objects out of 1000 (max. 8388607)
+ 182 compressed objects within 2 object streams
+ 44 named destinations out of 1000 (max. 500000)
  83 words of extra memory for PDF output out of 10000 (max. 10000000)
 
