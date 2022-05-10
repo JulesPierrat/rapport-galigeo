@@ -23,10 +23,9 @@ Exercitation mollit nulla Lorem ullamco pariatur anim ipsum sit pariatur qui ex 
 
 ### Sommaire
 
-1. [Introduction](#introduction)
-2. [Reformulation du sujet](#reformulation-du-sujet)
-3. [Tâches et solutions envisagées](#taches-et-solutions-envisagees)
-4. [Calendrier prévisionnel](#calendrier-previsionnel)
+1. [Reformulation du sujet](#reformulation-du-sujet)
+2. [Tâches et solutions envisagées](#taches-et-solutions-envisagees)
+3. [Calendrier prévisionnel](#calendrier-previsionnel)
 
 ### Compte Rendu des conditions d'arrivée
 ### Reformulation du sujet
