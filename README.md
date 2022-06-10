@@ -8,7 +8,9 @@
 
 ## Introduction
 
-Magna et incididunt do irure id nisi. Consequat sunt consectetur exercitation qui ea dolor est dolor. Laborum proident ullamco commodo dolore consequat esse ea adipisicing aute. Do in ex eu ex elit incididunt ea. Mollit reprehenderit deserunt et irure.
+Ce GitHub concentre l'ensemble des documents et rapport sur mon stage de fin d'étude de l'ENSG à Galigéo. Il permet de centraliser toutes les informations sur le stage, et de les rendres accessibles à tous.
+
+Il permettera à mes maîtres de stages et professeurs de suivre mon stage et de me contacter pour toutes questions.
 
 ## Sommaire
 
@@ -20,7 +22,7 @@ Magna et incididunt do irure id nisi. Consequat sunt consectetur exercitation qu
 
 ## Rapport d'installation
 
-Exercitation mollit nulla Lorem ullamco pariatur anim ipsum sit pariatur qui ex eiusmod. Qui aliqua enim minim magna anim quis adipisicing occaecat anim. Sit id mollit aliquip esse eu dolor exercitation. Exercitation qui laborum ipsum sunt. Consectetur reprehenderit ullamco tempor laborum fugiat pariatur eiusmod officia velit ea id irure fugiat ut. Aliquip minim velit enim do.
+Ce rapport que je réalise après 1mois - 1,5 mois de stage, permet de donner un aperçu de mon arrivée à Galigéo, mon organisation, ce que je réalise et ce que je vais encore  réaliser.
 
 ### Sommaire
 
