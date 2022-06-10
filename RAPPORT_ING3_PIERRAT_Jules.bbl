@@ -1,0 +1,1273 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{Balhorn_1972}{article}{}
+      \name{author}{1}{}{%
+        {{hash=31a774f222b9fe9bc4805ef732aa4382}{%
+           family={al},
+           familyi={a\bibinitperiod},
+           given={Balhorn\bibnamedelima R},
+           giveni={B\bibinitperiod\bibinitdelim R\bibinitperiod},
+           prefix={et},
+           prefixi={e\bibinitperiod}}}%
+      }
+      \strng{namehash}{31a774f222b9fe9bc4805ef732aa4382}
+      \strng{fullhash}{31a774f222b9fe9bc4805ef732aa4382}
+      \strng{bibnamehash}{31a774f222b9fe9bc4805ef732aa4382}
+      \strng{authorbibnamehash}{31a774f222b9fe9bc4805ef732aa4382}
+      \strng{authornamehash}{31a774f222b9fe9bc4805ef732aa4382}
+      \strng{authorfullhash}{31a774f222b9fe9bc4805ef732aa4382}
+      \field{extraname}{1}
+      \field{sortinit}{a}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Applied Optics}
+      \field{title}{Frequency Stabilization of Internal-Mirror Helium-Neon Lasers}
+      \field{year}{1972}
+      \true{nocite}
+      \field{pages}{p. 742\bibrangedash 744}
+      \range{pages}{-1}
+    \endentry
+    \entry{Niebauer_1995}{article}{}
+      \name{author}{1}{}{%
+        {{hash=f5923fda1372dfb065b0f2baa72bec0d}{%
+           family={al},
+           familyi={a\bibinitperiod},
+           given={Niebauer\bibnamedelima T.M.},
+           giveni={N\bibinitperiod\bibinitdelim T\bibinitperiod},
+           prefix={et},
+           prefixi={e\bibinitperiod}}}%
+      }
+      \strng{namehash}{f5923fda1372dfb065b0f2baa72bec0d}
+      \strng{fullhash}{f5923fda1372dfb065b0f2baa72bec0d}
+      \strng{bibnamehash}{f5923fda1372dfb065b0f2baa72bec0d}
+      \strng{authorbibnamehash}{f5923fda1372dfb065b0f2baa72bec0d}
+      \strng{authornamehash}{f5923fda1372dfb065b0f2baa72bec0d}
+      \strng{authorfullhash}{f5923fda1372dfb065b0f2baa72bec0d}
+      \field{extraname}{2}
+      \field{sortinit}{a}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Metrologia}
+      \field{title}{A new génération of absolute gravimeters}
+      \field{volume}{32}
+      \field{year}{1995}
+      \true{nocite}
+      \field{pages}{159\bibrangedash 180}
+      \range{pages}{22}
+    \endentry
+    \entry{Niebauer_1988}{article}{}
+      \name{author}{1}{}{%
+        {{hash=f5923fda1372dfb065b0f2baa72bec0d}{%
+           family={al},
+           familyi={a\bibinitperiod},
+           given={Niebauer\bibnamedelima T.M.},
+           giveni={N\bibinitperiod\bibinitdelim T\bibinitperiod},
+           prefix={et},
+           prefixi={e\bibinitperiod}}}%
+      }
+      \strng{namehash}{f5923fda1372dfb065b0f2baa72bec0d}
+      \strng{fullhash}{f5923fda1372dfb065b0f2baa72bec0d}
+      \strng{bibnamehash}{f5923fda1372dfb065b0f2baa72bec0d}
+      \strng{authorbibnamehash}{f5923fda1372dfb065b0f2baa72bec0d}
+      \strng{authornamehash}{f5923fda1372dfb065b0f2baa72bec0d}
+      \strng{authorfullhash}{f5923fda1372dfb065b0f2baa72bec0d}
+      \field{extraname}{3}
+      \field{sortinit}{a}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Applied Optics}
+      \field{title}{Frequency stability measurements on polarization-stabilized He-Ne lasers}
+      \field{year}{1988}
+      \true{nocite}
+      \field{pages}{p.1285\bibrangedash 1289}
+      \range{pages}{-1}
+    \endentry
+    \entry{Beilin2005}{thesis}{}
+      \name{author}{1}{}{%
+        {{hash=8d75288d7838f2982b9faf3bb9498bd1}{%
+           family={Beilin},
+           familyi={B\bibinitperiod},
+           given={Jacques},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {ENSG}%
+      }
+      \strng{namehash}{8d75288d7838f2982b9faf3bb9498bd1}
+      \strng{fullhash}{8d75288d7838f2982b9faf3bb9498bd1}
+      \strng{bibnamehash}{8d75288d7838f2982b9faf3bb9498bd1}
+      \strng{authorbibnamehash}{8d75288d7838f2982b9faf3bb9498bd1}
+      \strng{authornamehash}{8d75288d7838f2982b9faf3bb9498bd1}
+      \strng{authorfullhash}{8d75288d7838f2982b9faf3bb9498bd1}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Compensation combinées d’observations gravimétriques absolues et relatives – MCGRAVI}
+      \field{type}{Projet de fin d’étude}
+      \field{year}{2005}
+      \true{nocite}
+    \endentry
+    \entry{Hofmann-Wellenhof}{book}{}
+      \name{author}{1}{}{%
+        {{hash=c8b2cfdf3a6a48074acb3d9a70c2f868}{%
+           family={Bernhard\bibnamedelima Hofmann-Wellenhof},
+           familyi={B\bibinitperiod\bibinitdelim H\bibinithyphendelim W\bibinitperiod},
+           given={Helmut\bibnamedelima Moritz},
+           giveni={H\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {2nd, corr. ed., Springer}%
+      }
+      \strng{namehash}{c8b2cfdf3a6a48074acb3d9a70c2f868}
+      \strng{fullhash}{c8b2cfdf3a6a48074acb3d9a70c2f868}
+      \strng{bibnamehash}{c8b2cfdf3a6a48074acb3d9a70c2f868}
+      \strng{authorbibnamehash}{c8b2cfdf3a6a48074acb3d9a70c2f868}
+      \strng{authornamehash}{c8b2cfdf3a6a48074acb3d9a70c2f868}
+      \strng{authorfullhash}{c8b2cfdf3a6a48074acb3d9a70c2f868}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Physical Geodesy}
+      \field{volume}{XVII}
+      \field{year}{2006}
+      \true{nocite}
+      \field{pages}{403}
+      \range{pages}{1}
+    \endentry
+    \entry{ICAG_2005}{report}{}
+      \name{author}{1}{}{%
+        {{hash=cd425cb5d726bb1f39a81eeadb0b99c4}{%
+           family={BIPM},
+           familyi={B\bibinitperiod},
+           given={Pilot},
+           giveni={P\bibinitperiod},
+           prefix={laboratory},
+           prefixi={l\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {BIPM}%
+      }
+      \strng{namehash}{cd425cb5d726bb1f39a81eeadb0b99c4}
+      \strng{fullhash}{cd425cb5d726bb1f39a81eeadb0b99c4}
+      \strng{bibnamehash}{cd425cb5d726bb1f39a81eeadb0b99c4}
+      \strng{authorbibnamehash}{cd425cb5d726bb1f39a81eeadb0b99c4}
+      \strng{authornamehash}{cd425cb5d726bb1f39a81eeadb0b99c4}
+      \strng{authorfullhash}{cd425cb5d726bb1f39a81eeadb0b99c4}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{7th International comparison of absolute gravimeters, ICAG-2005, Technical protocol}
+      \field{type}{techreport}
+      \field{year}{2005}
+      \true{nocite}
+    \endentry
+    \entry{sigbrgmgravi}{online}{}
+      \name{author}{1}{}{%
+        {{hash=1bf7c3d3ed77df717bea90ddb2639ad9}{%
+           family={BRGM},
+           familyi={B\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {BRGM}%
+      }
+      \strng{namehash}{1bf7c3d3ed77df717bea90ddb2639ad9}
+      \strng{fullhash}{1bf7c3d3ed77df717bea90ddb2639ad9}
+      \strng{bibnamehash}{1bf7c3d3ed77df717bea90ddb2639ad9}
+      \strng{authorbibnamehash}{1bf7c3d3ed77df717bea90ddb2639ad9}
+      \strng{authornamehash}{1bf7c3d3ed77df717bea90ddb2639ad9}
+      \strng{authorfullhash}{1bf7c3d3ed77df717bea90ddb2639ad9}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{11}
+      \field{title}{Site web du {BRGM} - {SIG} Mines France}
+      \field{year}{2009}
+      \true{nocite}
+      \verb{urlraw}
+      \verb http://sigminesfrance.brgm.fr/geophy_gravi.asp
+      \endverb
+      \verb{url}
+      \verb http://sigminesfrance.brgm.fr/geophy_gravi.asp
+      \endverb
+    \endentry
+    \entry{capderou_satellites:_2002}{book}{}
+      \name{author}{1}{}{%
+        {{hash=a1d9ffb44b166b177ce09a1b20031da8}{%
+           family={Capderou},
+           familyi={C\bibinitperiod},
+           given={Michel},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{a1d9ffb44b166b177ce09a1b20031da8}
+      \strng{fullhash}{a1d9ffb44b166b177ce09a1b20031da8}
+      \strng{bibnamehash}{a1d9ffb44b166b177ce09a1b20031da8}
+      \strng{authorbibnamehash}{a1d9ffb44b166b177ce09a1b20031da8}
+      \strng{authornamehash}{a1d9ffb44b166b177ce09a1b20031da8}
+      \strng{authorfullhash}{a1d9ffb44b166b177ce09a1b20031da8}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{isbn}{9782287597725}
+      \field{shorttitle}{Satellites}
+      \field{title}{Satellites: orbites et missions}
+      \field{year}{2002}
+      \true{nocite}
+      \field{pages}{511}
+      \range{pages}{1}
+    \endentry
+    \entry{Chambat2010}{article}{}
+      \name{author}{1}{}{%
+        {{hash=7614f1033bf118cf440381c098f33756}{%
+           family={Chambat},
+           familyi={C\bibinitperiod},
+           given={Frédéric},
+           giveni={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{7614f1033bf118cf440381c098f33756}
+      \strng{fullhash}{7614f1033bf118cf440381c098f33756}
+      \strng{bibnamehash}{7614f1033bf118cf440381c098f33756}
+      \strng{authorbibnamehash}{7614f1033bf118cf440381c098f33756}
+      \strng{authornamehash}{7614f1033bf118cf440381c098f33756}
+      \strng{authorfullhash}{7614f1033bf118cf440381c098f33756}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Dossiers Pour la Science}
+      \field{title}{Voir la planète avec la pesanteur}
+      \field{volume}{67}
+      \field{year}{2010}
+      \true{nocite}
+      \field{pages}{72\bibrangedash 73}
+      \range{pages}{2}
+    \endentry
+    \entry{Diament_2005}{article}{}
+      \name{author}{1}{}{%
+        {{hash=63ad493fc931f423ebf96b70dd921d75}{%
+           family={Diament},
+           familyi={D\bibinitperiod},
+           given={Michel},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{63ad493fc931f423ebf96b70dd921d75}
+      \strng{fullhash}{63ad493fc931f423ebf96b70dd921d75}
+      \strng{bibnamehash}{63ad493fc931f423ebf96b70dd921d75}
+      \strng{authorbibnamehash}{63ad493fc931f423ebf96b70dd921d75}
+      \strng{authornamehash}{63ad493fc931f423ebf96b70dd921d75}
+      \strng{authorfullhash}{63ad493fc931f423ebf96b70dd921d75}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Techniques de l'ingénieur}
+      \field{title}{Mesure du champ de pesanteur terrestre}
+      \field{volume}{R 1814}
+      \field{year}{2005}
+      \true{nocite}
+    \endentry
+    \entry{Ducarme}{manual}{}
+      \name{author}{1}{}{%
+        {{hash=b9a7a7b8ec5bb188edb4f2624a5cba5f}{%
+           family={Ducarme},
+           familyi={D\bibinitperiod},
+           given={Bernard},
+           giveni={B\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {Observatoire Royal de Belgique}%
+      }
+      \strng{namehash}{b9a7a7b8ec5bb188edb4f2624a5cba5f}
+      \strng{fullhash}{b9a7a7b8ec5bb188edb4f2624a5cba5f}
+      \strng{bibnamehash}{b9a7a7b8ec5bb188edb4f2624a5cba5f}
+      \strng{authorbibnamehash}{b9a7a7b8ec5bb188edb4f2624a5cba5f}
+      \strng{authornamehash}{b9a7a7b8ec5bb188edb4f2624a5cba5f}
+      \strng{authorfullhash}{b9a7a7b8ec5bb188edb4f2624a5cba5f}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{MT80} - Theoretical tides computation}
+      \true{nocite}
+    \endentry
+    \entry{duquenne_gps:_2005}{book}{}
+      \name{author}{4}{}{%
+        {{hash=53078c6eff88a56d30af8a09932e78fd}{%
+           family={Duquenne},
+           familyi={D\bibinitperiod},
+           given={Françoise},
+           giveni={F\bibinitperiod}}}%
+        {{hash=068b49dd8e093f6ab49a15281d6e16b2}{%
+           family={Botton},
+           familyi={B\bibinitperiod},
+           given={Serge},
+           giveni={S\bibinitperiod}}}%
+        {{hash=12ca05637c4ddee2523f1218bdb7cd93}{%
+           family={Collectif},
+           familyi={C\bibinitperiod}}}%
+        {{hash=9521e48368315da49f8f237ca53b5042}{%
+           family={Willis},
+           familyi={W\bibinitperiod},
+           given={Pascal},
+           giveni={P\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Hermès science publications}%
+      }
+      \strng{namehash}{64768ff36b323d74b339a2c0ffc61554}
+      \strng{fullhash}{24f69a87b041f7cee938c9960c3e0a43}
+      \strng{bibnamehash}{64768ff36b323d74b339a2c0ffc61554}
+      \strng{authorbibnamehash}{64768ff36b323d74b339a2c0ffc61554}
+      \strng{authornamehash}{64768ff36b323d74b339a2c0ffc61554}
+      \strng{authorfullhash}{24f69a87b041f7cee938c9960c3e0a43}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{isbn}{9782746210905}
+      \field{shorttitle}{{GPS}}
+      \field{title}{{GPS:} localisation et navigation par satellites}
+      \field{year}{2005}
+      \true{nocite}
+      \field{pages}{330}
+      \range{pages}{1}
+    \endentry
+    \entry{Duquenne2005}{inproceedings}{}
+      \name{author}{1}{}{%
+        {{hash=8145b87ff39d36dbb8444dffca0bd1a2}{%
+           family={Duquenne},
+           familyi={D\bibinitperiod},
+           given={Henri},
+           giveni={H\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {ENSG}%
+      }
+      \strng{namehash}{8145b87ff39d36dbb8444dffca0bd1a2}
+      \strng{fullhash}{8145b87ff39d36dbb8444dffca0bd1a2}
+      \strng{bibnamehash}{8145b87ff39d36dbb8444dffca0bd1a2}
+      \strng{authorbibnamehash}{8145b87ff39d36dbb8444dffca0bd1a2}
+      \strng{authornamehash}{8145b87ff39d36dbb8444dffca0bd1a2}
+      \strng{authorfullhash}{8145b87ff39d36dbb8444dffca0bd1a2}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Cours aux étudiants PPMD}
+      \field{title}{Altitude, nivellement, systèmes de référence altimétrique}
+      \field{year}{2005}
+      \true{nocite}
+    \endentry
+    \entry{Gabalda2000}{manual}{}
+      \name{author}{2}{}{%
+        {{hash=e3b747d87f8172050a5617d544e72756}{%
+           family={Gabalda},
+           familyi={G\bibinitperiod},
+           given={Germinal},
+           giveni={G\bibinitperiod}}}%
+        {{hash=59c777478e0488633693bcdc7497fdf3}{%
+           family={Bonvalot},
+           familyi={B\bibinitperiod},
+           given={Sylvain},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {IRD}%
+      }
+      \strng{namehash}{b72370e36fa578ce952811c4b03a230e}
+      \strng{fullhash}{b72370e36fa578ce952811c4b03a230e}
+      \strng{bibnamehash}{b72370e36fa578ce952811c4b03a230e}
+      \strng{authorbibnamehash}{b72370e36fa578ce952811c4b03a230e}
+      \strng{authornamehash}{b72370e36fa578ce952811c4b03a230e}
+      \strng{authorfullhash}{b72370e36fa578ce952811c4b03a230e}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{6}
+      \field{title}{{CG3TOOL}, Programme interactif de traitement de données gravimétriques Scintrex CG3/3M}
+      \field{year}{2000}
+      \true{nocite}
+    \endentry
+    \entry{Gabalda2003}{article}{}
+      \name{author}{3}{}{%
+        {{hash=e3b747d87f8172050a5617d544e72756}{%
+           family={Gabalda},
+           familyi={G\bibinitperiod},
+           given={Germinal},
+           giveni={G\bibinitperiod}}}%
+        {{hash=59c777478e0488633693bcdc7497fdf3}{%
+           family={Bonvalot},
+           familyi={B\bibinitperiod},
+           given={Sylvain},
+           giveni={S\bibinitperiod}}}%
+        {{hash=419f34966cfa5c0a047a670a10eda3ba}{%
+           family={Hipkin},
+           familyi={H\bibinitperiod},
+           given={Roger},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{0ad0d80276412b0ce29ff17a08a15f99}
+      \strng{fullhash}{0ad0d80276412b0ce29ff17a08a15f99}
+      \strng{bibnamehash}{0ad0d80276412b0ce29ff17a08a15f99}
+      \strng{authorbibnamehash}{0ad0d80276412b0ce29ff17a08a15f99}
+      \strng{authornamehash}{0ad0d80276412b0ce29ff17a08a15f99}
+      \strng{authorfullhash}{0ad0d80276412b0ce29ff17a08a15f99}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Computer \& Geosciences}
+      \field{title}{{CG3TOOL} : an interactive computer program to process Scintrex {CG3/3M} gravity data for high resolution applications}
+      \field{volume}{29}
+      \field{year}{2003}
+      \true{nocite}
+      \field{pages}{155\bibrangedash 171}
+      \range{pages}{17}
+    \endentry
+    \entry{gleason_gnss_2009}{book}{}
+      \name{author}{2}{}{%
+        {{hash=3f98c545ca386a0a8f669c8ba228a47d}{%
+           family={Gleason},
+           familyi={G\bibinitperiod},
+           given={Scott},
+           giveni={S\bibinitperiod}}}%
+        {{hash=2c6be2923f839e167dd99baeb9f09bfd}{%
+           family={{Gebre-Egziabher}},
+           familyi={G\bibinitperiod},
+           given={Demoz},
+           giveni={D\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Artech House}%
+      }
+      \strng{namehash}{81e431aabfcd8b99283d263be3d604c3}
+      \strng{fullhash}{81e431aabfcd8b99283d263be3d604c3}
+      \strng{bibnamehash}{81e431aabfcd8b99283d263be3d604c3}
+      \strng{authorbibnamehash}{81e431aabfcd8b99283d263be3d604c3}
+      \strng{authornamehash}{81e431aabfcd8b99283d263be3d604c3}
+      \strng{authorfullhash}{81e431aabfcd8b99283d263be3d604c3}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9781596933293}
+      \field{month}{8}
+      \field{title}{{GNSS} Applications and Methods}
+      \field{year}{2009}
+      \true{nocite}
+      \field{pages}{528}
+      \range{pages}{1}
+    \endentry
+    \entry{IS-GPS-200e}{report}{}
+      \name{author}{1}{}{%
+        {{hash=16da3575adeaa9a0eac3198322509ac3}{%
+           family={Gpsw},
+           familyi={G\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Global Positioning System Wing (Gpsw) Systems Engineering \& Integration}%
+      }
+      \list{location}{1}{%
+        {El Segundo, California}%
+      }
+      \strng{namehash}{16da3575adeaa9a0eac3198322509ac3}
+      \strng{fullhash}{16da3575adeaa9a0eac3198322509ac3}
+      \strng{bibnamehash}{16da3575adeaa9a0eac3198322509ac3}
+      \strng{authorbibnamehash}{16da3575adeaa9a0eac3198322509ac3}
+      \strng{authornamehash}{16da3575adeaa9a0eac3198322509ac3}
+      \strng{authorfullhash}{16da3575adeaa9a0eac3198322509ac3}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{IS-GPS-200 rev e, Navstar GPS Space Segment/Navigation User Interfaces}
+      \field{type}{techreport}
+      \field{year}{2010}
+      \true{nocite}
+    \endentry
+    \entry{grewal_global_2007}{book}{}
+      \name{author}{4}{}{%
+        {{hash=b7bb0e75239a95ecea244be0e26ec0b4}{%
+           family={Grewal},
+           familyi={G\bibinitperiod},
+           given={Mohinder\bibnamedelima S.},
+           giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=87d956c60caab5f5a15d8bbb08650b74}{%
+           family={Weill},
+           familyi={W\bibinitperiod},
+           given={Lawrence\bibnamedelima Randolph},
+           giveni={L\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=4cadb08f4b2534045aaa2147f247e1ef}{%
+           family={Weill},
+           familyi={W\bibinitperiod},
+           given={Lawrence\bibnamedelima R.},
+           giveni={L\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=3063f566cda79c6172b5fa17bc4a8499}{%
+           family={Andrews},
+           familyi={A\bibinitperiod},
+           given={Angus\bibnamedelima P.},
+           giveni={A\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley-Interscience}%
+      }
+      \strng{namehash}{20a23be0cd56c6c948473d4e84894a21}
+      \strng{fullhash}{2173e1eaec6259b82de032d636397528}
+      \strng{bibnamehash}{20a23be0cd56c6c948473d4e84894a21}
+      \strng{authorbibnamehash}{20a23be0cd56c6c948473d4e84894a21}
+      \strng{authornamehash}{20a23be0cd56c6c948473d4e84894a21}
+      \strng{authorfullhash}{2173e1eaec6259b82de032d636397528}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9780470041901}
+      \field{month}{1}
+      \field{title}{Global positioning systems, inertial navigation, and integration}
+      \field{year}{2007}
+      \true{nocite}
+      \field{pages}{553}
+      \range{pages}{1}
+    \endentry
+    \entry{Duquenne2006}{inproceedings}{}
+      \name{author}{1}{}{%
+        {{hash=a3f171a67617ce0ac9fed5c26e084c50}{%
+           family={Henri\bibnamedelima Duquenne},
+           familyi={H\bibinitperiod\bibinitdelim D\bibinitperiod},
+           given={Jérôme\bibnamedelima Verdun},
+           giveni={J\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {ENSG}%
+      }
+      \strng{namehash}{a3f171a67617ce0ac9fed5c26e084c50}
+      \strng{fullhash}{a3f171a67617ce0ac9fed5c26e084c50}
+      \strng{bibnamehash}{a3f171a67617ce0ac9fed5c26e084c50}
+      \strng{authorbibnamehash}{a3f171a67617ce0ac9fed5c26e084c50}
+      \strng{authornamehash}{a3f171a67617ce0ac9fed5c26e084c50}
+      \strng{authorfullhash}{a3f171a67617ce0ac9fed5c26e084c50}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Cours aux étudiants PPMD}
+      \field{title}{Le champ de pesanteur : notions fondamentales et méthodes modernes de détermination}
+      \field{year}{2006}
+      \true{nocite}
+    \endentry
+    \entry{Hofmann-Wellenhof2007}{book}{}
+      \name{author}{3}{}{%
+        {{hash=04b7ad2fc0fa6201bb36195a662b2d0a}{%
+           family={{Hofmann-Wellenhof}},
+           familyi={H\bibinitperiod},
+           given={Bernhard},
+           giveni={B\bibinitperiod}}}%
+        {{hash=f3930c8eb25ab5b9cefdaaefeb5154c8}{%
+           family={Lichtenegger},
+           familyi={L\bibinitperiod},
+           given={Herbert},
+           giveni={H\bibinitperiod}}}%
+        {{hash=4a16723f9266282332bb3f591143aaea}{%
+           family={Wasle},
+           familyi={W\bibinitperiod},
+           given={Elmar},
+           giveni={E\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{6de389c6a865d440510963b288ca97f0}
+      \strng{fullhash}{6de389c6a865d440510963b288ca97f0}
+      \strng{bibnamehash}{6de389c6a865d440510963b288ca97f0}
+      \strng{authorbibnamehash}{6de389c6a865d440510963b288ca97f0}
+      \strng{authornamehash}{6de389c6a865d440510963b288ca97f0}
+      \strng{authorfullhash}{6de389c6a865d440510963b288ca97f0}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{edition}{1}
+      \field{isbn}{3211730125}
+      \field{month}{12}
+      \field{shorttitle}{{GNSS} Global Navigation Satellite Systems}
+      \field{title}{{GNSS} Global Navigation Satellite Systems: {GPS,} {GLONASS,} Galileo, and more}
+      \field{year}{2007}
+      \true{nocite}
+    \endentry
+    \entry{Hofmann-Wellenhof2005}{book}{}
+      \name{author}{2}{}{%
+        {{hash=04b7ad2fc0fa6201bb36195a662b2d0a}{%
+           family={{Hofmann-Wellenhof}},
+           familyi={H\bibinitperiod},
+           given={Bernhard},
+           giveni={B\bibinitperiod}}}%
+        {{hash=3efd5c7face9b15e306b705681a43e15}{%
+           family={Moritz},
+           familyi={M\bibinitperiod},
+           given={Helmut},
+           giveni={H\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{e3555141f130f1df320890716dc4a0cd}
+      \strng{fullhash}{e3555141f130f1df320890716dc4a0cd}
+      \strng{bibnamehash}{e3555141f130f1df320890716dc4a0cd}
+      \strng{authorbibnamehash}{e3555141f130f1df320890716dc4a0cd}
+      \strng{authornamehash}{e3555141f130f1df320890716dc4a0cd}
+      \strng{authorfullhash}{e3555141f130f1df320890716dc4a0cd}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{1}
+      \field{isbn}{3211235841}
+      \field{month}{9}
+      \field{title}{Physical Geodesy}
+      \field{year}{2005}
+      \true{nocite}
+    \endentry
+    \entry{EVRSconventions2007}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=9eba21d6360e4bdf2534ebdd9c57e950}{%
+           family={Idhe},
+           familyi={I\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=7a086a5fa163ccbfe59e8107a9254af6}{%
+           family={Makkinen},
+           familyi={M\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=21f1f16bc9cf592f648cb764a98ff616}{%
+           family={Sacher},
+           familyi={S\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{66c7bcd0ea81389b9222900de010b825}
+      \strng{fullhash}{66c7bcd0ea81389b9222900de010b825}
+      \strng{bibnamehash}{66c7bcd0ea81389b9222900de010b825}
+      \strng{authorbibnamehash}{66c7bcd0ea81389b9222900de010b825}
+      \strng{authornamehash}{66c7bcd0ea81389b9222900de010b825}
+      \strng{authorfullhash}{66c7bcd0ea81389b9222900de010b825}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Conventions for the Definition and Realisation of a {E}uropean {V}ertical {R}eference {S}ystem ({EVRS}) - {EVRS} conventions 2007}
+      \field{year}{2008}
+      \true{nocite}
+    \endentry
+    \entry{jacobson_gnss_2007}{book}{}
+      \name{author}{1}{}{%
+        {{hash=04f19547902971388f129ace24228603}{%
+           family={Jacobson},
+           familyi={J\bibinitperiod},
+           given={Len},
+           giveni={L\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Artech House}%
+      }
+      \strng{namehash}{04f19547902971388f129ace24228603}
+      \strng{fullhash}{04f19547902971388f129ace24228603}
+      \strng{bibnamehash}{04f19547902971388f129ace24228603}
+      \strng{authorbibnamehash}{04f19547902971388f129ace24228603}
+      \strng{authornamehash}{04f19547902971388f129ace24228603}
+      \strng{authorfullhash}{04f19547902971388f129ace24228603}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9781596930421}
+      \field{month}{6}
+      \field{title}{{GNSS} markets and applications}
+      \field{year}{2007}
+      \true{nocite}
+      \field{pages}{240}
+      \range{pages}{1}
+    \endentry
+    \entry{Klobuchar}{article}{}
+      \name{author}{1}{}{%
+        {{hash=cb81b67f958f1adc8f5840eda45f0778}{%
+           family={Klobuchar},
+           familyi={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{cb81b67f958f1adc8f5840eda45f0778}
+      \strng{fullhash}{cb81b67f958f1adc8f5840eda45f0778}
+      \strng{bibnamehash}{cb81b67f958f1adc8f5840eda45f0778}
+      \strng{authorbibnamehash}{cb81b67f958f1adc8f5840eda45f0778}
+      \strng{authornamehash}{cb81b67f958f1adc8f5840eda45f0778}
+      \strng{authorfullhash}{cb81b67f958f1adc8f5840eda45f0778}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Ionospherics Physics Laboratory, Air Force Cambridge Research Laboratories}
+      \field{note}{Hanscom AFB, Massachussets Klobuchar John A.}
+      \field{title}{A first order worldwide ionospheric time-delay algorithm}
+      \field{year}{1975}
+      \true{nocite}
+    \endentry
+    \entry{xyzqgf16}{article}{}
+      \name{author}{1}{}{%
+        {{hash=dc1b7a440781afb0ebd8c927271b4c33}{%
+           family={L'Ecu},
+           familyi={L\bibinitperiod},
+           given={François},
+           giveni={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{dc1b7a440781afb0ebd8c927271b4c33}
+      \strng{fullhash}{dc1b7a440781afb0ebd8c927271b4c33}
+      \strng{bibnamehash}{dc1b7a440781afb0ebd8c927271b4c33}
+      \strng{authorbibnamehash}{dc1b7a440781afb0ebd8c927271b4c33}
+      \strng{authornamehash}{dc1b7a440781afb0ebd8c927271b4c33}
+      \strng{authorfullhash}{dc1b7a440781afb0ebd8c927271b4c33}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{XYZ}
+      \field{title}{Calcul du quasi-geoïde QGF16 et de la grille de conversion altimétrique RAF16, état d'avancement et perspectives}
+      \field{year}{2017}
+      \true{nocite}
+    \endentry
+    \entry{Longman1959}{article}{}
+      \name{author}{1}{}{%
+        {{hash=d50c958c3b1a45bd24e5acdf7a7c965c}{%
+           family={Longman},
+           familyi={L\bibinitperiod},
+           given={I.M.},
+           giveni={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{d50c958c3b1a45bd24e5acdf7a7c965c}
+      \strng{fullhash}{d50c958c3b1a45bd24e5acdf7a7c965c}
+      \strng{bibnamehash}{d50c958c3b1a45bd24e5acdf7a7c965c}
+      \strng{authorbibnamehash}{d50c958c3b1a45bd24e5acdf7a7c965c}
+      \strng{authornamehash}{d50c958c3b1a45bd24e5acdf7a7c965c}
+      \strng{authorfullhash}{d50c958c3b1a45bd24e5acdf7a7c965c}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Geophysics Research}
+      \field{title}{Formulas for Computing the Tidal Accelerations Due to the Moon and the Sun}
+      \field{volume}{64}
+      \field{year}{1959}
+      \true{nocite}
+      \field{pages}{2351\bibrangedash 2355}
+      \range{pages}{5}
+    \endentry
+    \entry{Amalvict_2002}{article}{}
+      \name{author}{1}{}{%
+        {{hash=dce9e3ac2e8f5ad21c79e5257d0c7641}{%
+           family={M.\bibnamedelimi Amalvict},
+           familyi={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+           given={J.\bibnamedelimi Hinderer},
+           giveni={J\bibinitperiod\bibinitdelim H\bibinitperiod},
+           suffix={N.\bibnamedelimi Debeglia},
+           suffixi={N\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \strng{namehash}{dce9e3ac2e8f5ad21c79e5257d0c7641}
+      \strng{fullhash}{dce9e3ac2e8f5ad21c79e5257d0c7641}
+      \strng{bibnamehash}{dce9e3ac2e8f5ad21c79e5257d0c7641}
+      \strng{authorbibnamehash}{dce9e3ac2e8f5ad21c79e5257d0c7641}
+      \strng{authornamehash}{dce9e3ac2e8f5ad21c79e5257d0c7641}
+      \strng{authorfullhash}{dce9e3ac2e8f5ad21c79e5257d0c7641}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Gravity and Geoid}
+      \field{title}{The Absolute Gravity Measurements Performed By Sakuma In France, Revisited 20 Years Later}
+      \field{volume}{3rd meeting of the IGGC}
+      \field{year}{2002}
+      \true{nocite}
+      \field{pages}{76\bibrangedash 83}
+      \range{pages}{8}
+    \endentry
+    \entry{el-rabbany_introduction_2002}{book}{}
+      \name{author}{1}{}{%
+        {{hash=1dbbd22e5aae2ac781225af5cf499f71}{%
+           family={{El-Rabbany}},
+           familyi={E\bibinitperiod},
+           given={Ahmed},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Artech House}%
+      }
+      \strng{namehash}{1dbbd22e5aae2ac781225af5cf499f71}
+      \strng{fullhash}{1dbbd22e5aae2ac781225af5cf499f71}
+      \strng{bibnamehash}{1dbbd22e5aae2ac781225af5cf499f71}
+      \strng{authorbibnamehash}{1dbbd22e5aae2ac781225af5cf499f71}
+      \strng{authornamehash}{1dbbd22e5aae2ac781225af5cf499f71}
+      \strng{authorfullhash}{1dbbd22e5aae2ac781225af5cf499f71}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{isbn}{9781580531832}
+      \field{shorttitle}{Introduction to {GPS}}
+      \field{title}{Introduction to {GPS:} the Global Positioning System}
+      \field{year}{2002}
+      \true{nocite}
+      \field{pages}{202}
+      \range{pages}{1}
+    \endentry
+    \entry{EVRF2007}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{hash=21f1f16bc9cf592f648cb764a98ff616}{%
+           family={Sacher},
+           familyi={S\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=0d4c3d7617fe679d9581637f9574e978}{%
+           family={Ihde},
+           familyi={I\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=2c8638ae0b2b4bfa460663c22fd18342}{%
+           family={Liebsch},
+           familyi={L\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+        {{hash=7a086a5fa163ccbfe59e8107a9254af6}{%
+           family={Makkinen},
+           familyi={M\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{80f3ad8e1a5a703d855517e236a8a827}
+      \strng{fullhash}{2e1f068ece4163715a19347434b8f5c1}
+      \strng{bibnamehash}{80f3ad8e1a5a703d855517e236a8a827}
+      \strng{authorbibnamehash}{80f3ad8e1a5a703d855517e236a8a827}
+      \strng{authornamehash}{80f3ad8e1a5a703d855517e236a8a827}
+      \strng{authorfullhash}{2e1f068ece4163715a19347434b8f5c1}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Symposium oh the IAG sub-commision for Europe ({EUREF}) in Brussels, June 18-21 2008}
+      \field{title}{{EVRF2007} as {R}ealization of the {E}uropean {V}ertical {R}eference {S}ystem}
+      \field{year}{2008}
+      \true{nocite}
+    \endentry
+    \entry{samama_global_2008}{book}{}
+      \name{author}{1}{}{%
+        {{hash=06a574ff97ceea10beeeb46580615846}{%
+           family={Samama},
+           familyi={S\bibinitperiod},
+           given={Nel},
+           giveni={N\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley-Interscience}%
+      }
+      \strng{namehash}{06a574ff97ceea10beeeb46580615846}
+      \strng{fullhash}{06a574ff97ceea10beeeb46580615846}
+      \strng{bibnamehash}{06a574ff97ceea10beeeb46580615846}
+      \strng{authorbibnamehash}{06a574ff97ceea10beeeb46580615846}
+      \strng{authornamehash}{06a574ff97ceea10beeeb46580615846}
+      \strng{authorfullhash}{06a574ff97ceea10beeeb46580615846}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{isbn}{9780471793762}
+      \field{shorttitle}{Global positioning}
+      \field{title}{Global positioning: technologies and performance}
+      \field{year}{2008}
+      \true{nocite}
+      \field{pages}{440}
+      \range{pages}{1}
+    \endentry
+    \entry{schofield_engineering_2007}{book}{}
+      \name{author}{2}{}{%
+        {{hash=6d34e7f9e7a045a510bdc6f8f92c5718}{%
+           family={Schofield},
+           familyi={S\bibinitperiod},
+           given={Wilfred},
+           giveni={W\bibinitperiod}}}%
+        {{hash=f8ebed565ec563a00399b45f515a9eae}{%
+           family={Breach},
+           familyi={B\bibinitperiod},
+           given={Mark},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Butterworth-Heinemann}%
+      }
+      \strng{namehash}{5f9d47454906a74736bac5961d9ce857}
+      \strng{fullhash}{5f9d47454906a74736bac5961d9ce857}
+      \strng{bibnamehash}{5f9d47454906a74736bac5961d9ce857}
+      \strng{authorbibnamehash}{5f9d47454906a74736bac5961d9ce857}
+      \strng{authornamehash}{5f9d47454906a74736bac5961d9ce857}
+      \strng{authorfullhash}{5f9d47454906a74736bac5961d9ce857}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9780750669498}
+      \field{month}{4}
+      \field{title}{Engineering surveying}
+      \field{year}{2007}
+      \true{nocite}
+      \field{pages}{637}
+      \range{pages}{1}
+    \endentry
+    \entry{Scintrex1995}{manual}{}
+      \name{author}{1}{}{%
+        {{hash=4bf34250f70c585ccb5bc2788fea78ca}{%
+           family={Scintrex},
+           familyi={S\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {Scintrex Ltd}%
+      }
+      \strng{namehash}{4bf34250f70c585ccb5bc2788fea78ca}
+      \strng{fullhash}{4bf34250f70c585ccb5bc2788fea78ca}
+      \strng{bibnamehash}{4bf34250f70c585ccb5bc2788fea78ca}
+      \strng{authorbibnamehash}{4bf34250f70c585ccb5bc2788fea78ca}
+      \strng{authornamehash}{4bf34250f70c585ccb5bc2788fea78ca}
+      \strng{authorfullhash}{4bf34250f70c585ccb5bc2788fea78ca}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{User's guide : CG-3/3M Gravity Meter}
+      \field{year}{1995}
+      \true{nocite}
+    \endentry
+    \entry{Seeber2003}{book}{}
+      \name{author}{1}{}{%
+        {{hash=a130c59d918c540e3b8d7a4238566dfa}{%
+           family={Seeber},
+           familyi={S\bibinitperiod},
+           given={Gunter},
+           giveni={G\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Walter de Gruyter}%
+      }
+      \strng{namehash}{a130c59d918c540e3b8d7a4238566dfa}
+      \strng{fullhash}{a130c59d918c540e3b8d7a4238566dfa}
+      \strng{bibnamehash}{a130c59d918c540e3b8d7a4238566dfa}
+      \strng{authorbibnamehash}{a130c59d918c540e3b8d7a4238566dfa}
+      \strng{authornamehash}{a130c59d918c540e3b8d7a4238566dfa}
+      \strng{authorfullhash}{a130c59d918c540e3b8d7a4238566dfa}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{2 Revised}
+      \field{isbn}{3110175495}
+      \field{month}{9}
+      \field{title}{Satellite Geodesy}
+      \field{year}{2003}
+      \true{nocite}
+    \endentry
+    \entry{szebehely_adventures_1998}{book}{}
+      \name{author}{2}{}{%
+        {{hash=b73348ea791589e4a2996b41d3f7f5fe}{%
+           family={Szebehely},
+           familyi={S\bibinitperiod},
+           given={Victor\bibnamedelima G.},
+           giveni={V\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=eda5936ca5c4e6add9f93fe80c76f757}{%
+           family={Mark},
+           familyi={M\bibinitperiod},
+           given={Hans},
+           giveni={H\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley-VCH}%
+      }
+      \strng{namehash}{321eb5c02203729b38255422d5f6c8ef}
+      \strng{fullhash}{321eb5c02203729b38255422d5f6c8ef}
+      \strng{bibnamehash}{321eb5c02203729b38255422d5f6c8ef}
+      \strng{authorbibnamehash}{321eb5c02203729b38255422d5f6c8ef}
+      \strng{authornamehash}{321eb5c02203729b38255422d5f6c8ef}
+      \strng{authorfullhash}{321eb5c02203729b38255422d5f6c8ef}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9780471133179}
+      \field{title}{Adventures in celestial mechanics}
+      \field{year}{1998}
+      \true{nocite}
+      \field{pages}{328}
+      \range{pages}{1}
+    \endentry
+    \entry{Torge2001}{book}{}
+      \name{author}{1}{}{%
+        {{hash=88171d50cc7b9e6a111f44406873e73e}{%
+           family={Torge},
+           familyi={T\bibinitperiod},
+           given={Wolfgang},
+           giveni={W\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {3rd ed., De Gruyter}%
+      }
+      \strng{namehash}{88171d50cc7b9e6a111f44406873e73e}
+      \strng{fullhash}{88171d50cc7b9e6a111f44406873e73e}
+      \strng{bibnamehash}{88171d50cc7b9e6a111f44406873e73e}
+      \strng{authorbibnamehash}{88171d50cc7b9e6a111f44406873e73e}
+      \strng{authornamehash}{88171d50cc7b9e6a111f44406873e73e}
+      \strng{authorfullhash}{88171d50cc7b9e6a111f44406873e73e}
+      \field{extraname}{1}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Geodesy}
+      \field{year}{2001}
+      \true{nocite}
+      \field{pages}{416}
+      \range{pages}{1}
+    \endentry
+    \entry{torge_gravimetry_1989}{book}{}
+      \name{author}{1}{}{%
+        {{hash=88171d50cc7b9e6a111f44406873e73e}{%
+           family={Torge},
+           familyi={T\bibinitperiod},
+           given={Wolfgang},
+           giveni={W\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Walter de Gruyter}%
+      }
+      \strng{namehash}{88171d50cc7b9e6a111f44406873e73e}
+      \strng{fullhash}{88171d50cc7b9e6a111f44406873e73e}
+      \strng{bibnamehash}{88171d50cc7b9e6a111f44406873e73e}
+      \strng{authorbibnamehash}{88171d50cc7b9e6a111f44406873e73e}
+      \strng{authornamehash}{88171d50cc7b9e6a111f44406873e73e}
+      \strng{authorfullhash}{88171d50cc7b9e6a111f44406873e73e}
+      \field{extraname}{2}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9783110107029}
+      \field{month}{12}
+      \field{title}{Gravimetry}
+      \field{year}{1989}
+      \true{nocite}
+      \field{pages}{488}
+      \range{pages}{1}
+    \endentry
+    \entry{tsui_fundamentals_2005}{book}{}
+      \name{author}{1}{}{%
+        {{hash=d41f21d171cbd134bf31b00500d81750}{%
+           family={Tsui},
+           familyi={T\bibinitperiod},
+           given={James\bibnamedelima Bao-yen},
+           giveni={J\bibinitperiod\bibinitdelim B\bibinithyphendelim y\bibinitperiod}}}%
+      }
+      \list{publisher}{2}{%
+        {John Wiley}%
+        {Sons}%
+      }
+      \strng{namehash}{d41f21d171cbd134bf31b00500d81750}
+      \strng{fullhash}{d41f21d171cbd134bf31b00500d81750}
+      \strng{bibnamehash}{d41f21d171cbd134bf31b00500d81750}
+      \strng{authorbibnamehash}{d41f21d171cbd134bf31b00500d81750}
+      \strng{authornamehash}{d41f21d171cbd134bf31b00500d81750}
+      \strng{authorfullhash}{d41f21d171cbd134bf31b00500d81750}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{isbn}{9780471706472}
+      \field{shorttitle}{Fundamentals of global positioning system receivers}
+      \field{title}{Fundamentals of global positioning system receivers: a software approach}
+      \field{year}{2005}
+      \true{nocite}
+      \field{pages}{373}
+      \range{pages}{1}
+    \endentry
+    \entry{Wessel1991}{article}{}
+      \name{author}{2}{}{%
+        {{hash=22554a729f9dca2050eace13bdc5b62a}{%
+           family={Wessel},
+           familyi={W\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+        {{hash=33ae514753dd7f74bf4c82e0d76808a3}{%
+           family={Smith},
+           familyi={S\bibinitperiod},
+           given={W.H.F.},
+           giveni={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{08c154994cd122183bdc25597c1e1535}
+      \strng{fullhash}{08c154994cd122183bdc25597c1e1535}
+      \strng{bibnamehash}{08c154994cd122183bdc25597c1e1535}
+      \strng{authorbibnamehash}{08c154994cd122183bdc25597c1e1535}
+      \strng{authornamehash}{08c154994cd122183bdc25597c1e1535}
+      \strng{authorfullhash}{08c154994cd122183bdc25597c1e1535}
+      \field{extraname}{1}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{EOS Trans. Amer. Geophys. U.}
+      \field{title}{Free software helps map and display data}
+      \field{volume}{72}
+      \field{year}{1991}
+      \true{nocite}
+      \field{pages}{445\bibrangedash 446}
+      \range{pages}{2}
+    \endentry
+    \entry{Wessel2010}{manual}{}
+      \name{author}{2}{}{%
+        {{hash=22554a729f9dca2050eace13bdc5b62a}{%
+           family={Wessel},
+           familyi={W\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+        {{hash=33ae514753dd7f74bf4c82e0d76808a3}{%
+           family={Smith},
+           familyi={S\bibinitperiod},
+           given={W.H.F.},
+           giveni={W\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {SOEST-NOAA}%
+      }
+      \strng{namehash}{08c154994cd122183bdc25597c1e1535}
+      \strng{fullhash}{08c154994cd122183bdc25597c1e1535}
+      \strng{bibnamehash}{08c154994cd122183bdc25597c1e1535}
+      \strng{authorbibnamehash}{08c154994cd122183bdc25597c1e1535}
+      \strng{authornamehash}{08c154994cd122183bdc25597c1e1535}
+      \strng{authorfullhash}{08c154994cd122183bdc25597c1e1535}
+      \field{extraname}{2}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The Generic Mapping Tools Technical Reference and Cookbook}
+      \field{year}{2010}
+      \true{nocite}
+    \endentry
+    \entry{Westrum2005}{manual}{}
+      \name{author}{1}{}{%
+        {{hash=dfd1a186c180d725d64813d2e53a4340}{%
+           family={Westrum},
+           familyi={W\bibinitperiod},
+           given={Derek\bibnamedelima Van},
+           giveni={D\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Micro-g Solutions, Inc.}%
+      }
+      \strng{namehash}{dfd1a186c180d725d64813d2e53a4340}
+      \strng{fullhash}{dfd1a186c180d725d64813d2e53a4340}
+      \strng{bibnamehash}{dfd1a186c180d725d64813d2e53a4340}
+      \strng{authorbibnamehash}{dfd1a186c180d725d64813d2e53a4340}
+      \strng{authornamehash}{dfd1a186c180d725d64813d2e53a4340}
+      \strng{authorfullhash}{dfd1a186c180d725d64813d2e53a4340}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{A10 absolute portable gravimeter}
+      \field{year}{2005}
+      \true{nocite}
+      \keyw{gravimetry,absolute gravimeter,A10}
+    \endentry
+    \entry{Xu_gps_2007}{book}{}
+      \name{author}{1}{}{%
+        {{hash=2fc02a3ae7e1142ddd7e5f21cad0b914}{%
+           family={Xu},
+           familyi={X\bibinitperiod},
+           given={Guochang},
+           giveni={G\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{2fc02a3ae7e1142ddd7e5f21cad0b914}
+      \strng{fullhash}{2fc02a3ae7e1142ddd7e5f21cad0b914}
+      \strng{bibnamehash}{2fc02a3ae7e1142ddd7e5f21cad0b914}
+      \strng{authorbibnamehash}{2fc02a3ae7e1142ddd7e5f21cad0b914}
+      \strng{authornamehash}{2fc02a3ae7e1142ddd7e5f21cad0b914}
+      \strng{authorfullhash}{2fc02a3ae7e1142ddd7e5f21cad0b914}
+      \field{extraname}{1}
+      \field{sortinit}{X}
+      \field{sortinithash}{1965c258adceecf23ce3d67b05113442}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{isbn}{9783540727149}
+      \field{shorttitle}{{GPS}}
+      \field{title}{{GPS:} theory, algorithms, and applications}
+      \field{year}{2007}
+      \true{nocite}
+      \field{pages}{354}
+      \range{pages}{1}
+    \endentry
+    \entry{xu_orbits_2008}{book}{}
+      \name{author}{1}{}{%
+        {{hash=2fc02a3ae7e1142ddd7e5f21cad0b914}{%
+           family={Xu},
+           familyi={X\bibinitperiod},
+           given={Guochang},
+           giveni={G\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{2fc02a3ae7e1142ddd7e5f21cad0b914}
+      \strng{fullhash}{2fc02a3ae7e1142ddd7e5f21cad0b914}
+      \strng{bibnamehash}{2fc02a3ae7e1142ddd7e5f21cad0b914}
+      \strng{authorbibnamehash}{2fc02a3ae7e1142ddd7e5f21cad0b914}
+      \strng{authornamehash}{2fc02a3ae7e1142ddd7e5f21cad0b914}
+      \strng{authorfullhash}{2fc02a3ae7e1142ddd7e5f21cad0b914}
+      \field{extraname}{2}
+      \field{sortinit}{X}
+      \field{sortinithash}{1965c258adceecf23ce3d67b05113442}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9783540785217}
+      \field{title}{Orbits}
+      \field{year}{2008}
+      \true{nocite}
+      \field{pages}{236}
+      \range{pages}{1}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
