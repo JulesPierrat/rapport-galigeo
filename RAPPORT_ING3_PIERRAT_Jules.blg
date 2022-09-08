@@ -1,17 +1,17 @@
 [0] Config.pm:307> INFO - This is Biber 2.17
 [0] Config.pm:310> INFO - Logfile is 'RAPPORT_ING3_PIERRAT_Jules.blg'
-[44] biber:340> INFO - === Thu Sep  8, 2022, 19:21:16
-[53] Biber.pm:418> INFO - Reading 'RAPPORT_ING3_PIERRAT_Jules.bcf'
-[97] Biber.pm:969> INFO - Using all citekeys in bib section 0
-[106] Biber.pm:4383> INFO - Processing section 0
-[112] Biber.pm:4574> INFO - Looking for bibtex file 'RAPPORT_ING3_PIERRAT_Jules.bib' for section 0
-[114] bibtex.pm:1713> INFO - LaTeX decoding ...
-[143] bibtex.pm:1518> INFO - Found BibTeX data source 'RAPPORT_ING3_PIERRAT_Jules.bib'
-[443] UCollate.pm:68> INFO - Overriding locale 'fr-FR' defaults 'variable = shifted' with 'variable = non-ignorable'
-[444] UCollate.pm:68> INFO - Overriding locale 'fr-FR' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[446] Biber.pm:4203> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'fr-FR'
-[446] Biber.pm:4209> INFO - No sort tailoring available for locale 'fr-FR'
-[570] bbl.pm:654> INFO - Writing 'RAPPORT_ING3_PIERRAT_Jules.bbl' with encoding 'UTF-8'
-[597] bbl.pm:757> INFO - Output to RAPPORT_ING3_PIERRAT_Jules.bbl
-[598] Biber.pm:130> WARN - legacy month field 'june' in entry 'Gabalda2000' is not an integer - this will probably not sort properly.
-[599] Biber.pm:132> INFO - WARNINGS: 1
+[46] biber:340> INFO - === Thu Sep  8, 2022, 20:30:33
+[55] Biber.pm:418> INFO - Reading 'RAPPORT_ING3_PIERRAT_Jules.bcf'
+[102] Biber.pm:969> INFO - Using all citekeys in bib section 0
+[110] Biber.pm:4383> INFO - Processing section 0
+[116] Biber.pm:4574> INFO - Looking for bibtex file 'RAPPORT_ING3_PIERRAT_Jules.bib' for section 0
+[118] bibtex.pm:1713> INFO - LaTeX decoding ...
+[146] bibtex.pm:1518> INFO - Found BibTeX data source 'RAPPORT_ING3_PIERRAT_Jules.bib'
+[306] UCollate.pm:68> INFO - Overriding locale 'fr-FR' defaults 'variable = shifted' with 'variable = non-ignorable'
+[307] UCollate.pm:68> INFO - Overriding locale 'fr-FR' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[307] Biber.pm:4203> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'fr-FR'
+[307] Biber.pm:4209> INFO - No sort tailoring available for locale 'fr-FR'
+[338] bbl.pm:654> INFO - Writing 'RAPPORT_ING3_PIERRAT_Jules.bbl' with encoding 'UTF-8'
+[353] bbl.pm:757> INFO - Output to RAPPORT_ING3_PIERRAT_Jules.bbl
+[353] Biber.pm:130> WARN - legacy month field 'june' in entry 'Gabalda2000' is not an integer - this will probably not sort properly.
+[353] Biber.pm:132> INFO - WARNINGS: 1
