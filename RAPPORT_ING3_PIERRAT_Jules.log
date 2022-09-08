@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.5.12)  17 MAY 2022 11:18
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.5.12)  8 SEP 2022 19:25
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -869,7 +869,7 @@ Package biblatex Info: ... file 'RAPPORT_ING3_PIERRAT_Jules.bbl' found.
  (./RAPPORT_ING3_PIERRAT_Jules.bbl)
 Package biblatex Info: Reference section=0 on input line 67.
 Package biblatex Info: Reference segment=0 on input line 67.
-<images//logos/logo_ensg.png, id=40, 672.5125pt x 714.67pt>
+<images//logos/logo_ensg.png, id=44, 672.5125pt x 714.67pt>
 File: images//logos/logo_ensg.png Graphic file (type png)
 <use images//logos/logo_ensg.png>
 Package pdftex.def Info: images//logos/logo_ensg.png  used on input line 76.
@@ -904,7 +904,7 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 76.
  (/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-<images//logos/logo_galigeo.png, id=41, 513.92pt x 513.92pt>
+<images//logos/logo_galigeo.png, id=45, 513.92pt x 513.92pt>
 File: images//logos/logo_galigeo.png Graphic file (type png)
 <use images//logos/logo_galigeo.png>
 Package pdftex.def Info: images//logos/logo_galigeo.png  used on input line 76.
@@ -978,21 +978,21 @@ LaTeX Font Warning: Font shape `T1/lmss/m/sc' in size <10.95> not available
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.110 \end{abstract}
+l.122 \end{abstract}
                      [1]
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.125 \end{abstract}
+l.137 \end{abstract}
                      [1]
 pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.131 \newevenpage
+l.143 \newevenpage
                    [2] (./RAPPORT_ING3_PIERRAT_Jules.toc
 
 LaTeX Font Warning: Font shape `T1/lmss/bx/sc' undefined
-(Font)              using `T1/lmss/bx/n' instead on input line 5.
+(Font)              using `T1/lmss/bx/n' instead on input line 6.
 
 )
 \tf@toc=\write5
@@ -1002,49 +1002,55 @@ LaTeX Font Warning: Font shape `T1/lmss/bx/sc' undefined
 pdfTeX warning (ext4): destination with the same identifier (name{page.3}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.136 \newevenpage
+l.148 \newevenpage
                    [3] [4]
 
-LaTeX Warning: Hyper reference `acro:ENSG' on page 5 undefined on input line 141.
+LaTeX Warning: Hyper reference `acro:CNN' on page 5 undefined on input line 153.
 
 
-LaTeX Warning: Hyper reference `acro:ENSG' on page 5 undefined on input line 141.
+LaTeX Warning: Hyper reference `acro:CNN' on page 5 undefined on input line 153.
 
 
-LaTeX Warning: Hyper reference `acro:ML' on page 5 undefined on input line 142.
+LaTeX Warning: Hyper reference `acro:COO' on page 5 undefined on input line 154.
 
 
-LaTeX Warning: Hyper reference `acro:ML' on page 5 undefined on input line 142.
+LaTeX Warning: Hyper reference `acro:COO' on page 5 undefined on input line 154.
 
 
-LaTeX Warning: Hyper reference `acro:DNN' on page 5 undefined on input line 143.
+LaTeX Warning: Hyper reference `acro:DNN' on page 5 undefined on input line 155.
 
 
-LaTeX Warning: Hyper reference `acro:DNN' on page 5 undefined on input line 143.
+LaTeX Warning: Hyper reference `acro:DNN' on page 5 undefined on input line 155.
 
 
-LaTeX Warning: Hyper reference `acro:RNN' on page 5 undefined on input line 144.
+LaTeX Warning: Hyper reference `acro:ENSG' on page 5 undefined on input line 156.
 
 
-LaTeX Warning: Hyper reference `acro:RNN' on page 5 undefined on input line 144.
+LaTeX Warning: Hyper reference `acro:ENSG' on page 5 undefined on input line 156.
 
 
-LaTeX Warning: Hyper reference `acro:LSTM' on page 5 undefined on input line 145.
+LaTeX Warning: Hyper reference `acro:LSTM' on page 5 undefined on input line 157.
 
 
-LaTeX Warning: Hyper reference `acro:LSTM' on page 5 undefined on input line 145.
+LaTeX Warning: Hyper reference `acro:LSTM' on page 5 undefined on input line 157.
 
 
-LaTeX Warning: Hyper reference `acro:CNN' on page 5 undefined on input line 146.
+LaTeX Warning: Hyper reference `acro:ML' on page 5 undefined on input line 158.
 
 
-LaTeX Warning: Hyper reference `acro:CNN' on page 5 undefined on input line 146.
+LaTeX Warning: Hyper reference `acro:ML' on page 5 undefined on input line 158.
 
 
-LaTeX Warning: Hyper reference `acro:SVM' on page 5 undefined on input line 147.
+LaTeX Warning: Hyper reference `acro:RNN' on page 5 undefined on input line 159.
 
 
-LaTeX Warning: Hyper reference `acro:SVM' on page 5 undefined on input line 147.
+LaTeX Warning: Hyper reference `acro:RNN' on page 5 undefined on input line 159.
+
+
+LaTeX Warning: Hyper reference `acro:SVM' on page 5 undefined on input line 160.
+
+
+LaTeX Warning: Hyper reference `acro:SVM' on page 5 undefined on input line 160.
 
 [5
 
@@ -1089,7 +1095,7 @@ Overfull \hbox (77.66618pt too wide) in paragraph at lines 28--29
  []
 
 )
-Overfull \hbox (14.72208pt too wide) in paragraph at lines 30--162
+Overfull \hbox (14.72208pt too wide) in paragraph at lines 30--175
 []\T1/lmss/m/n/10.95 Pour plus d'in-fos sur la bi-bli, al-ler sur [][]$\T1/lmtt/m/n/10.95 http : / / bertrandmasson . free . fr / index . php ? article27/$[][] 
  []
 
@@ -1101,14 +1107,14 @@ Overfull \hbox (14.72208pt too wide) in paragraph at lines 30--162
 ] [11
 
 ] [12]
-Overfull \hbox (8.4343pt too wide) in paragraph at lines 179--179
+Overfull \hbox (8.4343pt too wide) in paragraph at lines 192--192
 []\T1/lmss/m/n/10.95 Michel []\T1/lmr/m/sc/10.95 Capderou[]\T1/lmss/m/n/10.95 . \T1/lmss/m/sl/10.95 Sa-tel-lites : or-bites et mis-sions\T1/lmss/m/n/10.95 . Sprin-ger, 2002, p. 511. \T1/lmr/m/sc/10.95 isbn \T1/lmss/m/n/10.95 : 9782287597725. 
  []
 
 [13
 
 ]
-Overfull \hbox (4.64899pt too wide) in paragraph at lines 179--179
+Overfull \hbox (4.64899pt too wide) in paragraph at lines 192--192
 []\T1/lmss/m/n/10.95 Gunter []\T1/lmr/m/sc/10.95 Seeber[]\T1/lmss/m/n/10.95 . \T1/lmss/m/sl/10.95 Sa-tel-lite Geo-desy\T1/lmss/m/n/10.95 . 2 Re-vi-sed. Wal-ter de Gruy-ter, sept. 2003. \T1/lmr/m/sc/10.95 isbn \T1/lmss/m/n/10.95 : 3110175495. 
  []
 
@@ -1144,7 +1150,7 @@ Package fancyhdr Warning: \headheight is too small (12.5pt):
 ] [22]
 Annexe A.
 
-Overfull \hbox (40.99998pt too wide) in paragraph at lines 192--192
+Overfull \hbox (40.99998pt too wide) in paragraph at lines 205--205
 [][] 
  []
 
@@ -1153,7 +1159,7 @@ Overfull \hbox (40.99998pt too wide) in paragraph at lines 192--192
 ] [24]
 Annexe B.
 
-Overfull \hbox (40.99998pt too wide) in paragraph at lines 196--196
+Overfull \hbox (40.99998pt too wide) in paragraph at lines 209--209
 [][] 
  []
 
@@ -1169,7 +1175,7 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `RAPPORT_ING3_PIERRAT_Jules.out' has not changed.
-(rerunfilecheck)             Checksum: 1619323DDECFE9A24BD49B60377BD358;1382.
+(rerunfilecheck)             Checksum: 25799F98CF4730273293881339EBEC55;1492.
 
 Package biblatex Warning: Please (re)run Biber on the file:
 (biblatex)                RAPPORT_ING3_PIERRAT_Jules
@@ -1180,18 +1186,18 @@ Package logreq Info: Writing requests to 'RAPPORT_ING3_PIERRAT_Jules.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 22932 strings out of 478300
- 397684 string characters out of 5845131
- 1119042 words of memory out of 5000000
- 40663 multiletter control sequences out of 15000+600000
+ 22936 strings out of 478300
+ 397715 string characters out of 5845131
+ 1118087 words of memory out of 5000000
+ 40666 multiletter control sequences out of 15000+600000
  552105 words of font info for 87 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 85i,11n,90p,1193b,1913s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 85i,11n,90p,1193b,1914s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}</usr/local/texlive/2022/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/lm/lmss10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/lm/lmss12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/lm/lmss8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/lm/lmsso10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/lm/lmtt10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/lm/lmtt12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on RAPPORT_ING3_PIERRAT_Jules.pdf (29 pages, 412362 bytes).
+Output written on RAPPORT_ING3_PIERRAT_Jules.pdf (29 pages, 414831 bytes).
 PDF statistics:
- 302 PDF objects out of 1000 (max. 8388607)
- 248 compressed objects within 3 object streams
- 91 named destinations out of 1000 (max. 500000)
- 83 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 307 PDF objects out of 1000 (max. 8388607)
+ 253 compressed objects within 3 object streams
+ 92 named destinations out of 1000 (max. 500000)
+ 91 words of extra memory for PDF output out of 10000 (max. 10000000)
 
