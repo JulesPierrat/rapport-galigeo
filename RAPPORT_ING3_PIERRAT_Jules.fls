@@ -1099,6 +1099,7 @@ INPUT RAPPORT_ING3_PIERRAT_Jules.toc
 INPUT RAPPORT_ING3_PIERRAT_Jules.toc
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/lm/ec-lmssbx10.tfm
 OUTPUT RAPPORT_ING3_PIERRAT_Jules.toc
+INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/lm/ec-lmss9.tfm
 INPUT ./chap1.tex
 INPUT ./chap1.tex
 INPUT ./chap1.tex
@@ -1169,6 +1170,7 @@ INPUT /usr/local/texlive/2022/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/type1/public/lm/lmss10.pfb
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/type1/public/lm/lmss12.pfb
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/type1/public/lm/lmss8.pfb
+INPUT /usr/local/texlive/2022/texmf-dist/fonts/type1/public/lm/lmss9.pfb
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/type1/public/lm/lmsso10.pfb
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/type1/public/lm/lmtt10.pfb

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.5.12)  8 SEP 2022 20:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.5.12)  9 SEP 2022 16:24
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -937,32 +937,32 @@ Underfull \hbox (badness 10000) in paragraph at lines 7--8
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 13--14
+Underfull \hbox (badness 10000) in paragraph at lines 14--15
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 19--20
+Underfull \hbox (badness 10000) in paragraph at lines 20--21
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 25--26
+Underfull \hbox (badness 10000) in paragraph at lines 26--27
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 31--32
+Underfull \hbox (badness 10000) in paragraph at lines 32--33
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 37--38
+Underfull \hbox (badness 10000) in paragraph at lines 38--39
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 44--45
+Underfull \hbox (badness 10000) in paragraph at lines 45--46
 
  []
 
@@ -1114,16 +1114,16 @@ Overfull \hbox (40.99998pt too wide) in paragraph at lines 1--1
 
 ]
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10.95> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 193.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 212.
 
-Overfull \hbox (8.4343pt too wide) in paragraph at lines 193--193
+Overfull \hbox (8.4343pt too wide) in paragraph at lines 212--212
 []\T1/lmss/m/n/10.95 Michel []\T1/lmr/m/sc/10.95 Capderou[]\T1/lmss/m/n/10.95 . \T1/lmss/m/sl/10.95 Sa-tel-lites : or-bites et mis-sions\T1/lmss/m/n/10.95 . Sprin-ger, 2002, p. 511. \T1/lmr/m/sc/10.95 isbn \T1/lmss/m/n/10.95 : 9782287597725. 
  []
 
 [11
 
 ]
-Overfull \hbox (4.64899pt too wide) in paragraph at lines 193--193
+Overfull \hbox (4.64899pt too wide) in paragraph at lines 212--212
 []\T1/lmss/m/n/10.95 Gunter []\T1/lmr/m/sc/10.95 Seeber[]\T1/lmss/m/n/10.95 . \T1/lmss/m/sl/10.95 Sa-tel-lite Geo-desy\T1/lmss/m/n/10.95 . 2 Re-vi-sed. Wal-ter de Gruy-ter, sept. 2003. \T1/lmr/m/sc/10.95 isbn \T1/lmss/m/n/10.95 : 3110175495. 
  []
 
@@ -1159,7 +1159,7 @@ Package fancyhdr Warning: \headheight is too small (12.5pt):
 ] [20]
 Annexe A.
 
-Overfull \hbox (40.99998pt too wide) in paragraph at lines 206--206
+Overfull \hbox (40.99998pt too wide) in paragraph at lines 225--225
 [][] 
  []
 
@@ -1168,7 +1168,7 @@ Overfull \hbox (40.99998pt too wide) in paragraph at lines 206--206
 ] [22]
 Annexe B.
 
-Overfull \hbox (40.99998pt too wide) in paragraph at lines 210--210
+Overfull \hbox (40.99998pt too wide) in paragraph at lines 229--229
 [][] 
  []
 
@@ -1184,24 +1184,24 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `RAPPORT_ING3_PIERRAT_Jules.out' has not changed.
-(rerunfilecheck)             Checksum: 4F2BD414D919A49F4A0B41CE57C25C05;2385.
+(rerunfilecheck)             Checksum: 562E2876FED20404AD2B0AD80D72487C;2385.
 Package logreq Info: Writing requests to 'RAPPORT_ING3_PIERRAT_Jules.run.xml'.
 \openout1 = `RAPPORT_ING3_PIERRAT_Jules.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 23009 strings out of 478300
- 399239 string characters out of 5845131
- 1124334 words of memory out of 5000000
- 40712 multiletter control sequences out of 15000+600000
- 552105 words of font info for 87 fonts, out of 8000000 for 9000
+ 23015 strings out of 478300
+ 399303 string characters out of 5845131
+ 1123334 words of memory out of 5000000
+ 40713 multiletter control sequences out of 15000+600000
+ 554882 words of font info for 88 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  85i,11n,90p,1193b,1912s stack positions out of 10000i,1000n,20000p,200000b,200000s
-{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}</usr/local/texlive/2022/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/lm/lmss10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/lm/lmss12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/lm/lmss8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/lm/lmsso10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/lm/lmtt10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/lm/lmtt12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on RAPPORT_ING3_PIERRAT_Jules.pdf (27 pages, 412730 bytes).
+{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}</usr/local/texlive/2022/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/lm/lmss10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/lm/lmss12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/lm/lmss8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/lm/lmss9.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/lm/lmsso10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/lm/lmtt10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/lm/lmtt12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on RAPPORT_ING3_PIERRAT_Jules.pdf (27 pages, 432803 bytes).
 PDF statistics:
- 343 PDF objects out of 1000 (max. 8388607)
- 291 compressed objects within 3 object streams
- 105 named destinations out of 1000 (max. 500000)
+ 358 PDF objects out of 1000 (max. 8388607)
+ 303 compressed objects within 4 object streams
+ 109 named destinations out of 1000 (max. 500000)
  147 words of extra memory for PDF output out of 10000 (max. 10000000)
 
