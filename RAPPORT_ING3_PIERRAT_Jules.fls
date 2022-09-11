@@ -1168,6 +1168,11 @@ INPUT ./RAPPORT_ING3_PIERRAT_Jules.ann
 INPUT RAPPORT_ING3_PIERRAT_Jules.ann
 INPUT RAPPORT_ING3_PIERRAT_Jules.ann
 OUTPUT RAPPORT_ING3_PIERRAT_Jules.ann
+INPUT ./images/graphs/gannt.png
+INPUT ./images/graphs/gannt.png
+INPUT images/graphs/gannt.png
+INPUT ./images/graphs/gannt.png
+INPUT ./images/graphs/gannt.png
 INPUT RAPPORT_ING3_PIERRAT_Jules.aux
 INPUT ./chap1.aux
 INPUT chap1.aux
