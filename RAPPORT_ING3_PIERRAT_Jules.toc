@@ -15,13 +15,28 @@
 \contentsline {subsection}{\numberline {1.3.1}Planning}{8}{subsection.1.3.1}%
 \contentsline {subsection}{\numberline {1.3.2}Mes missions}{8}{subsection.1.3.2}%
 \contentsline {subsection}{\numberline {1.3.3}Relations internes et client}{9}{subsection.1.3.3}%
-\contentsline {chapter}{\numberline {2}Le stage \textsc {Ensg}}{11}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Généralités}{11}{section.2.1}%
-\contentsline {section}{\numberline {2.2}Prédiction de flux piéton}{11}{section.2.2}%
-\contentsline {section}{\numberline {2.3}Prédiction de chiffre d'affaire}{11}{section.2.3}%
-\contentsline {section}{\numberline {2.4}Autres missions}{11}{section.2.4}%
-\contentsline {chapter}{\numberline {3}Bilan \textsc {Ensg}}{13}{chapter.3}%
-\contentsline {section}{\numberline {3.1}...}{13}{section.3.1}%
-\contentsline {part}{Conclusion}{14}{chapter*.14}%
+\contentsline {chapter}{\numberline {2}Le stage \textsc {Ensg}}{10}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Généralités}{10}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Prédiction de flux piéton}{10}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Mise en contexte}{10}{subsection.2.2.1}%
+\contentsline {paragraph}{}{10}{section*.21}%
+\contentsline {subsection}{\numberline {2.2.2}La donnée}{10}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.3}Technologies utilisées}{12}{subsection.2.2.3}%
+\contentsline {subsubsection}{Agrégation spatiale}{12}{section*.28}%
+\contentsline {subsubsection}{Infrasture de base de donnée}{13}{section*.31}%
+\contentsline {subsection}{\numberline {2.2.4}Entraînement et Tuning du modèle}{14}{subsection.2.2.4}%
+\contentsline {subsection}{\numberline {2.2.5}Résultats}{14}{subsection.2.2.5}%
+\contentsline {subsection}{\numberline {2.2.6}\'Evolutions possibles}{14}{subsection.2.2.6}%
+\contentsline {section}{\numberline {2.3}Prédiction de chiffre d'affaire}{14}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Contexte}{14}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Données disponibles}{14}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}Structure du modèle}{14}{subsection.2.3.3}%
+\contentsline {subsection}{\numberline {2.3.4}Résultats}{14}{subsection.2.3.4}%
+\contentsline {section}{\numberline {2.4}Autres missions}{14}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Analyse de données - Base de donnée nationale des Bâtiments}{14}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.2}Data engineering - Scrapping et automatisation de chaîne d'acquisition de données}{14}{subsection.2.4.2}%
+\contentsline {chapter}{\numberline {3}Bilan \textsc {Ensg}}{15}{chapter.3}%
+\contentsline {section}{\numberline {3.1}...}{15}{section.3.1}%
+\contentsline {part}{Conclusion}{16}{chapter*.32}%
 \contentsline {chapter}{\numberline {A}Planning du stage}{23}{appendix.1.A}%
 \contentsline {chapter}{\numberline {B}Moindres carrés}{25}{appendix.1.B}%

@@ -2344,7 +2344,9 @@
     <bcf:datasource type="file" datatype="bibtex">RAPPORT_ING3_PIERRAT_Jules.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
+    <bcf:citekey order="1">Uber_H3</bcf:citekey>
     <bcf:citekey order="0" nocite="1">*</bcf:citekey>
+    <bcf:citekey order="2">Uber_H3</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">
