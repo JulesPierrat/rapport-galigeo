@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.5.12)  12 SEP 2022 17:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.5.12)  13 SEP 2022 00:28
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -891,7 +891,7 @@ Package biblatex Info: Reference section=0 on input line 71.
 Package biblatex Info: Reference segment=0 on input line 71.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-<images//logos/logo_ensg.png, id=72, 672.5125pt x 714.67pt>
+<images//logos/logo_ensg.png, id=80, 672.5125pt x 714.67pt>
 File: images//logos/logo_ensg.png Graphic file (type png)
 <use images//logos/logo_ensg.png>
 Package pdftex.def Info: images//logos/logo_ensg.png  used on input line 80.
@@ -926,7 +926,7 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 80.
  (/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-<images//logos/logo_galigeo.png, id=73, 513.92pt x 513.92pt>
+<images//logos/logo_galigeo.png, id=81, 513.92pt x 513.92pt>
 File: images//logos/logo_galigeo.png Graphic file (type png)
 <use images//logos/logo_galigeo.png>
 Package pdftex.def Info: images//logos/logo_galigeo.png  used on input line 80.
@@ -1145,12 +1145,12 @@ Overfull \hbox (40.99998pt too wide) in paragraph at lines 1--1
 [][] 
  []
 
-<images/logos/client.png, id=156, 1058.15324pt x 135.50626pt>
+<images/logos/client.png, id=166, 1058.15324pt x 135.50626pt>
 File: images/logos/client.png Graphic file (type png)
 <use images/logos/client.png>
 Package pdftex.def Info: images/logos/client.png  used on input line 20.
 (pdftex.def)             Requested size: 455.24411pt x 58.29755pt.
-<images/photos/bureaux_galigeo.png, id=158, 1027.4385pt x 769.6755pt>
+<images/photos/bureaux_galigeo.png, id=168, 1027.4385pt x 769.6755pt>
 File: images/photos/bureaux_galigeo.png Graphic file (type png)
 <use images/photos/bureaux_galigeo.png>
 Package pdftex.def Info: images/photos/bureaux_galigeo.png  used on input line 30.
@@ -1162,7 +1162,7 @@ Underfull \vbox (badness 1057) has occurred while \output is active []
 
 
  <./images/logos/client.png>]
-<images/graphs/organigramme.png, id=168, 963.6pt x 399.74344pt>
+<images/graphs/organigramme.png, id=178, 963.6pt x 399.74344pt>
 File: images/graphs/organigramme.png Graphic file (type png)
 <use images/graphs/organigramme.png>
 Package pdftex.def Info: images/graphs/organigramme.png  used on input line 60.
@@ -1218,7 +1218,7 @@ Overfull \hbox (40.99998pt too wide) in paragraph at lines 1--1
 
 
 ]
-<images/graphs/map_of_label_footfall.png, id=225, 919.63576pt x 816.04875pt>
+<images/graphs/map_of_label_footfall.png, id=235, 919.63576pt x 816.04875pt>
 File: images/graphs/map_of_label_footfall.png Graphic file (type png)
 <use images/graphs/map_of_label_footfall.png>
 Package pdftex.def Info: images/graphs/map_of_label_footfall.png  used on input line 81.
@@ -1235,7 +1235,7 @@ Package fancyhdr Warning: \headheight is too small (12.5pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.09999pt}.
 
 [11]
-<images/graphs/h3-multiscale.png, id=236, 762.85pt x 684.5575pt>
+<images/graphs/h3-multiscale.png, id=246, 762.85pt x 684.5575pt>
 File: images/graphs/h3-multiscale.png Graphic file (type png)
 <use images/graphs/h3-multiscale.png>
 Package pdftex.def Info: images/graphs/h3-multiscale.png  used on input line 100.
@@ -1252,7 +1252,7 @@ Package fancyhdr Warning: \headheight is too small (12.5pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.09999pt}.
 
 [12 <./images/graphs/map_of_label_footfall.png>]
-<images/graphs/h3-ring.png, id=246, 774.895pt x 710.655pt>
+<images/graphs/h3-ring.png, id=256, 774.895pt x 710.655pt>
 File: images/graphs/h3-ring.png Graphic file (type png)
 <use images/graphs/h3-ring.png>
 Package pdftex.def Info: images/graphs/h3-ring.png  used on input line 107.
@@ -1266,7 +1266,7 @@ Package fancyhdr Warning: \headheight is too small (12.5pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.09999pt}.
 
 [13 <./images/graphs/h3-multiscale.png> <./images/graphs/h3-ring.png>]
-<images/graphs/dataset.png, id=260, 829.59938pt x 542.025pt>
+<images/graphs/dataset.png, id=270, 829.59938pt x 542.025pt>
 File: images/graphs/dataset.png Graphic file (type png)
 <use images/graphs/dataset.png>
 Package pdftex.def Info: images/graphs/dataset.png  used on input line 148.
@@ -1280,7 +1280,7 @@ Package fancyhdr Warning: \headheight is too small (12.5pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.09999pt}.
 
 [14 <./images/graphs/dataset.png>]
-<images/graphs/struc_model_dnn.png, id=271, 963.6pt x 1422.81563pt>
+<images/graphs/struc_model_dnn.png, id=282, 963.6pt x 1422.81563pt>
 File: images/graphs/struc_model_dnn.png Graphic file (type png)
 <use images/graphs/struc_model_dnn.png>
 Package pdftex.def Info: images/graphs/struc_model_dnn.png  used on input line 202.
@@ -1308,12 +1308,12 @@ Package fancyhdr Warning: \headheight is too small (12.5pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.09999pt}.
 
 [16 <./images/graphs/struc_model_dnn.png>]
-<images/graphs/fct_histo.png, id=287, 913.16156pt x 310.15875pt>
+<images/graphs/fct_histo.png, id=297, 913.16156pt x 310.15875pt>
 File: images/graphs/fct_histo.png Graphic file (type png)
 <use images/graphs/fct_histo.png>
 Package pdftex.def Info: images/graphs/fct_histo.png  used on input line 212.
 (pdftex.def)             Requested size: 455.24411pt x 154.62465pt.
-)
+
 
 Package fancyhdr Warning: \headheight is too small (12.5pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1322,6 +1322,12 @@ Package fancyhdr Warning: \headheight is too small (12.5pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.09999pt}.
 
 [17 <./images/graphs/fct_histo.png>]
+<images/graphs/data_ca.png, id=310, 963.6pt x 542.025pt>
+File: images/graphs/data_ca.png Graphic file (type png)
+<use images/graphs/data_ca.png>
+Package pdftex.def Info: images/graphs/data_ca.png  used on input line 293.
+(pdftex.def)             Requested size: 455.24411pt x 256.07507pt.
+
 
 Package fancyhdr Warning: \headheight is too small (12.5pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1330,6 +1336,22 @@ Package fancyhdr Warning: \headheight is too small (12.5pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.09999pt}.
 
 [18]
+
+Package fancyhdr Warning: \headheight is too small (12.5pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.09999pt}.
+
+[19 <./images/graphs/data_ca.png>])
+
+Package fancyhdr Warning: \headheight is too small (12.5pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.09999pt}.
+
+[20]
 \openout2 = `chap3.aux'.
 
  (./chap3.tex
@@ -1339,30 +1361,30 @@ Overfull \hbox (40.99998pt too wide) in paragraph at lines 1--1
 [][] 
  []
 
-) [19
+) [21
 
 
 
 
-] [20
+] [22
 
 
 
-] [21
+] [23
 
-] [22] (./RAPPORT_ING3_PIERRAT_Jules.lof)
+] [24] (./RAPPORT_ING3_PIERRAT_Jules.lof)
 \tf@lof=\write6
 \openout6 = `RAPPORT_ING3_PIERRAT_Jules.lof'.
 
- [23] [24] (./RAPPORT_ING3_PIERRAT_Jules.lot)
+ [25] [26] (./RAPPORT_ING3_PIERRAT_Jules.lot)
 \tf@lot=\write7
 \openout7 = `RAPPORT_ING3_PIERRAT_Jules.lot'.
 
- [25] (./RAPPORT_ING3_PIERRAT_Jules.ann)
+ [27] (./RAPPORT_ING3_PIERRAT_Jules.ann)
 \tf@ann=\write8
 \openout8 = `RAPPORT_ING3_PIERRAT_Jules.ann'.
 
- [26
+ [28
 
 ]
 Annexe A.
@@ -1371,7 +1393,7 @@ Overfull \hbox (40.99998pt too wide) in paragraph at lines 243--243
 [][] 
  []
 
-<images/graphs/gannt.png, id=360, 779.91376pt x 1194.71344pt>
+<images/graphs/gannt.png, id=396, 779.91376pt x 1194.71344pt>
 File: images/graphs/gannt.png Graphic file (type png)
 <use images/graphs/gannt.png>
 Package pdftex.def Info: images/graphs/gannt.png  used on input line 249.
@@ -1379,23 +1401,28 @@ Package pdftex.def Info: images/graphs/gannt.png  used on input line 249.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [27
+ [29
 
 ]
 Overfull \vbox (25.34175pt too high) has occurred while \output is active []
 
- [28 <./images/graphs/gannt.png>]
+ [30 <./images/graphs/gannt.png>]
 Annexe B.
 
 Overfull \hbox (40.99998pt too wide) in paragraph at lines 253--253
 [][] 
  []
 
+<images/graphs/stats_footfall.png, id=407, 963.6pt x 854.44218pt>
+File: images/graphs/stats_footfall.png Graphic file (type png)
+<use images/graphs/stats_footfall.png>
+Package pdftex.def Info: images/graphs/stats_footfall.png  used on input line 259.
+(pdftex.def)             Requested size: 455.24411pt x 403.67392pt.
 
 AED: lastpage setting LastPage
-[29
+[31
 
-] (./RAPPORT_ING3_PIERRAT_Jules.aux (./chap1.aux) (./chap2.aux) (./chap3.aux))
+ <./images/graphs/stats_footfall.png>] (./RAPPORT_ING3_PIERRAT_Jules.aux (./chap1.aux) (./chap2.aux) (./chap3.aux))
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -1403,24 +1430,24 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `RAPPORT_ING3_PIERRAT_Jules.out' has not changed.
-(rerunfilecheck)             Checksum: 9EC21F5E1A5E6059306B603DB5F812A7;2387.
+(rerunfilecheck)             Checksum: C8F59FE56B36A78CCBEC99629FCC64B4;2827.
 Package logreq Info: Writing requests to 'RAPPORT_ING3_PIERRAT_Jules.run.xml'.
 \openout1 = `RAPPORT_ING3_PIERRAT_Jules.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 24252 strings out of 478300
- 420506 string characters out of 5845131
- 1142619 words of memory out of 5000000
- 41904 multiletter control sequences out of 15000+600000
+ 24291 strings out of 478300
+ 421312 string characters out of 5845131
+ 1142729 words of memory out of 5000000
+ 41926 multiletter control sequences out of 15000+600000
  554563 words of font info for 87 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  85i,12n,90p,1193b,1912s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}</usr/local/texlive/2022/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/lm/lmss10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/lm/lmss12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/lm/lmss8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/lm/lmss9.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/lm/lmsso10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/lm/lmtt12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on RAPPORT_ING3_PIERRAT_Jules.pdf (33 pages, 5562298 bytes).
+Output written on RAPPORT_ING3_PIERRAT_Jules.pdf (35 pages, 6138990 bytes).
 PDF statistics:
- 446 PDF objects out of 1000 (max. 8388607)
- 368 compressed objects within 4 object streams
- 138 named destinations out of 1000 (max. 500000)
- 197 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 488 PDF objects out of 1000 (max. 8388607)
+ 404 compressed objects within 5 object streams
+ 153 named destinations out of 1000 (max. 500000)
+ 223 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -19,6 +19,30 @@
 
 \refsection{0}
   \datalist[entry]{nty/global//global/global}
+    \entry{BDNB}{article}{}
+      \name{author}{1}{}{%
+        {{hash=a7b80dcace34747ec86fcfe86f297fcd}{%
+           family={Technique\bibnamedelimb du\bibnamedelima Bâtiment},
+           familyi={T\bibinitperiod\bibinitdelim d\bibinitperiod\bibinitdelim B\bibinitperiod},
+           given={Centre\bibnamedelima Scientifique},
+           giveni={C\bibinitperiod\bibinitdelim S\bibinitperiod},
+           prefix={et},
+           prefixi={e\bibinitperiod}}}%
+      }
+      \strng{namehash}{a7b80dcace34747ec86fcfe86f297fcd}
+      \strng{fullhash}{a7b80dcace34747ec86fcfe86f297fcd}
+      \strng{bibnamehash}{a7b80dcace34747ec86fcfe86f297fcd}
+      \strng{authorbibnamehash}{a7b80dcace34747ec86fcfe86f297fcd}
+      \strng{authornamehash}{a7b80dcace34747ec86fcfe86f297fcd}
+      \strng{authorfullhash}{a7b80dcace34747ec86fcfe86f297fcd}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{GitLab}
+      \field{title}{Base de Donnée Nationale des Bâtiments}
+      \field{year}{2022}
+    \endentry
     \entry{Uber_H3}{article}{}
       \name{author}{1}{}{%
         {{hash=af00a7270cc3dc7b1bfd41fdb533f6e0}{%

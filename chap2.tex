@@ -237,17 +237,71 @@ Nous passons donc notre testset dans notre réseau neuronal. Cela nous permet d'
 
 \subsection{Résultats}
 
-A COMPLETER
+\begin{table}[H]
+    \centering
+    \begin{tabular}{l|l|l|}
+    \cline{2-3}
+                                            & \textbf{Test set} & \textbf{Training set} \\ \hline
+    \multicolumn{1}{|l|}{\textbf{RMSE}}     & 1 000 000         & 500000                \\ \hline
+    \multicolumn{1}{|l|}{\textbf{R2 Score}} & 0.45              & 0.86                  \\ \hline
+    \end{tabular}
+    \caption{Résumé des résultats}
+\end{table}
+
+Pour estimer la qualité de notre modèle, il faut regarder les résultats de la colonne de gauche, "Test set". On remarque tout de suite que l’erreur moyenne quadratique est d’environ 1000000. Or, si l’on se réfère à l’annexe B, Statistiques du modèle, on remarque que le flux piétons médians de 1000000 également.
+
+Le R2 score est également faible. Idéalement, il devrait se rapprocher de 1. L’estimation que fait le modèle n’est donc pas encore suffisante. 
+
+\paragraph*{}
+
+Cependant Galigeo renforce son dataset à chaque arrivée de donnée ce qui peut améliorer les résultats par la suite. Il se peut également que 6500 entrés soit trop peu et que l’enrichissement de mesure permette également de rendre plus précises les estimations du model.
+
+Nous avons également discuté de nombreuses autres pistes pour obtenir des résultats plus intéressant mais je les détaillerai dans la partie 3.1 de ce rapport.
 
 \section{Prédiction de chiffre d'affaire}
 
 \subsection{Contexte}
 
-Une des manière pour qu'une entreprise continue à croître
+Pour qu’une entreprise continue à croître et à se développer, elle peut étendre son aire d’attraction et ainsi cibler plus de clients. L’entreprise décide alors d’ouvrir une nouvelle enseigne. Le choix de l’emplacement est alors stratégique.
+
+Pour ce projet, un client de Galigeo souhaite implanter de nouvelles enseignes sur le territoire français. Pour ce faire il souhaite estimer le chiffre d’affaires et la cannibalisation \footnote {A compléter} qu’engendrerai un magasin en fonction de sa localisation, de sa surface, du type de magasin et du flux piéton moyen à l’adresse. 
+
+\paragraph{}
+
+Il a donc fallu créer un modèle prédictif du chiffre d’affaires et de la cannibalisation en s’entraînant sur les données des enseignes existantes. Cependant, cette entreprise possède 150 enseignes environ en France et cela semble insuffisant pour entraîner un modèle de machine learning. Nous avons donc utilisé une autre méthode pour démultiplier les données.
+
 
 \subsection{Données}
 
+La France est découpée en 15 500 IRIS (îlots Regroupés pour l'Information Statistique) et le client possède des données commerciales pour certains d’entre eux. Il est alors intéressant de travailler sur les IRIS et non sur les enseignes. En effet, nous avons à disposition :
+
+\begin{itemize}
+    \item La liste des enseignes (surface, chiffre d’affaires, type, localisation, …)
+    \item La liste des concurrents (surface, type, localisation, …)
+    \item Des données socio-démographiques pour chaque IRIS (tranche d’âge, nombre de ménage, revenue moyen, …)
+    \item Un distancier des Iris (permet de connaitre la distance et le temps de parcours entre deux centroïdes d’Iris)
+    \item Une estimation de la valeur du marché dans chaque IRIS
+    \item Une valeur de chiffre d’affaires pour chaque enseigne dans chaque IRIS (C’est ici le chiffre d’affaires tracé, une partie du chiffre d’affaires de chaque enseigne ne peut pas être localisé)
+\end{itemize}
+
+\paragraph{}
+
+On peut alors créer un dataset où chaque élément correspond à un iris pour un magasin et agréger le reste de la donnée à cette structure. On cherchera alors à estimer une part de marché, qui correspond à la quantité de marché détenu par un magasin particulier. Chaque enseigne connait l'origine géographique d'une partie de son chiffre d'affaire (~20\%), on peut donc connaitre cette part de marché sous-évalué, en divisant ce chiffre d'affaire tracé par la valeur du marché dans un IRIS donnée.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\linewidth]{images/graphs/data_ca.png}
+    \captionsetup{justification=centering}
+    \caption{Résumé de l'agrégation des données}
+    \label{fig:data_ca}
+\end{figure}
+
 \subsection{Structure du modèle}
+
+Cette fois si, il était plus intéressant de ne pas choisir un algorithme de Deep Learning mais un algorithme de machine learning moins coûteux en ressource comme un régresseur « Random Forest » ou un « XGBoost ».
+On utilisera la même structure de modèle qu’à la partie 2.2 mais cette fois si la normalisation est moins importante car le modèle n’est pas composé de neurones mais d’arbres de décisions.
+Nous avons alors comparé les deux solutions et sélectionné l’algorithme XGBoost.
+
 
 \subsection{Résultats}
 
@@ -255,4 +309,27 @@ Une des manière pour qu'une entreprise continue à croître
 
 \subsection{Analyse de données - Base de donnée nationale des Bâtiments}
 
+Pendant mon stage, j’ai également pu travailler sur d’autre petite mission pour des clients de Galigeo pour lesquels il n’était pas forcément question de machine learning.
+
+\paragraph{}
+
+Un client de Galigeo réalise de la prospection chez des particuliers. Jusqu’ici, la prospection était organisée très simplement, un quartier était sélectionné et les prospecteurs passaient dans chaque habitation. Ce client cible les habitations se chauffant à l’électricité et il arrive souvent que certaines des habitations prospectées se chauffent au gaz ou autre. Dans un souci d’économie et de gain de temps, nous avons donc tenter de cibler les prospections.
+
+En janvier 2022, une Base de Donnée Nationale des Bâtiments \cite{BDNB} est mise en ligne en open-source. C’est une base très complète avec plus de 90\% des géométries renseignés. Environ 25\% des bâtiments possède des informations énergétiques dont on ne connait pas la qualité. Le client et Galigeo ont donc décidé de mener une campagne de prospection cet été en s’appuyant sur cette base de données afin de qualifier les données énergétiques disponibles. Nous avons donc fait de l’analyse de donnée sur quelques IRIS (à Rennes et à Paris) pour lancer la campagne de prospection.
+
+\paragraph{}
+
+Aujourd’hui les campagnes de prospection sont toujours en cours mais le résultat semble positif. Si la base de données est retenue pour diriger les campagnes de prospections du client, il faudra automatiser les processus d’analyse pour envoyer la donnée traitée dans leur application métier développé par Galigeo.
+
+Sachant que seulement 25\% des bâtiments ont des données énergétiques, il sera peut-être intéressant un jour d’utiliser un algorithme de classification par machine learning pour interpoler ces informations manquantes sur le reste de la base. 
+
+
 \subsection{Data engineering - Scrapping et automatisation de chaîne d'acquisition de données}
+
+Une autre mission que j’ai pu réaliser était pour un client international de Galigeo. Ils utilisaient la solution de Galigeo pour leurs compagnies en France et souhaitent l’utiliser dans 13 nouveaux pays. La solution actuelle permet de sortir des rapports de géomarketing poussé qui s’appuie sur de très grandes quantités de données.
+
+L’objectif était donc de récupérer de la donnée en quantité et d’automatiser son processus de publication dans une base de données. J’ai donc écrit des scripts permettant de scrapper des site web de concurrents pour récupérer de la donnée non structurée pour l’organiser. J’ai aussi dû automatiser des requêtes via des API afin de récupérer des données ponctuelles sur un pays entier.
+
+\paragraph*{}
+
+Ce projet est encore en cours à la date où je rédige ce rapport. L’application et la base de donnée complète devrait être livré pour la mi-octobre.

@@ -34,16 +34,22 @@
 \contentsline {paragraph}{}{17}{section*.42}%
 \contentsline {paragraph}{}{17}{section*.43}%
 \contentsline {subsection}{\numberline {2.2.6}Résultats}{17}{subsection.2.2.6}%
-\contentsline {section}{\numberline {2.3}Prédiction de chiffre d'affaire}{17}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}Contexte}{17}{subsection.2.3.1}%
+\contentsline {section}{\numberline {2.3}Prédiction de chiffre d'affaire}{18}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Contexte}{18}{subsection.2.3.1}%
+\contentsline {paragraph}{}{18}{section*.46}%
 \contentsline {subsection}{\numberline {2.3.2}Données}{18}{subsection.2.3.2}%
-\contentsline {subsection}{\numberline {2.3.3}Structure du modèle}{18}{subsection.2.3.3}%
-\contentsline {subsection}{\numberline {2.3.4}Résultats}{18}{subsection.2.3.4}%
-\contentsline {section}{\numberline {2.4}Autres missions}{18}{section.2.4}%
-\contentsline {subsection}{\numberline {2.4.1}Analyse de données - Base de donnée nationale des Bâtiments}{18}{subsection.2.4.1}%
-\contentsline {subsection}{\numberline {2.4.2}Data engineering - Scrapping et automatisation de chaîne d'acquisition de données}{18}{subsection.2.4.2}%
-\contentsline {chapter}{\numberline {3}Bilan \textsc {Ensg}}{19}{chapter.3}%
-\contentsline {section}{\numberline {3.1}...}{19}{section.3.1}%
-\contentsline {part}{Conclusion}{20}{chapter*.44}%
-\contentsline {chapter}{\numberline {A}Planning du stage}{27}{appendix.1.A}%
-\contentsline {chapter}{\numberline {B}Moindres carrés}{29}{appendix.1.B}%
+\contentsline {paragraph}{}{18}{section*.47}%
+\contentsline {subsection}{\numberline {2.3.3}Structure du modèle}{19}{subsection.2.3.3}%
+\contentsline {subsection}{\numberline {2.3.4}Résultats}{19}{subsection.2.3.4}%
+\contentsline {section}{\numberline {2.4}Autres missions}{19}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Analyse de données - Base de donnée nationale des Bâtiments}{19}{subsection.2.4.1}%
+\contentsline {paragraph}{}{19}{section*.49}%
+\contentsline {paragraph}{}{20}{section*.50}%
+\contentsline {subsection}{\numberline {2.4.2}Data engineering - Scrapping et automatisation de chaîne d'acquisition de données}{20}{subsection.2.4.2}%
+\contentsline {chapter}{\numberline {3}Bilan \textsc {Ensg}}{21}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Bilan de mes travaux}{21}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Bilan du stage}{21}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Bilan des trois ans à l'ENSG}{21}{section.3.3}%
+\contentsline {part}{Conclusion}{22}{chapter*.52}%
+\contentsline {chapter}{\numberline {A}Planning du stage}{29}{appendix.1.A}%
+\contentsline {chapter}{\numberline {B}Statistiques DNN}{31}{appendix.1.B}%
