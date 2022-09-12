@@ -8,7 +8,10 @@
 \contentsline {figure}{\numberline {2.1}{\ignorespaces Carte des données d'entraînement\relax }}{12}{figure.caption.27}%
 \contentsline {figure}{\numberline {2.2}{\ignorespaces Principe de multi-echelles des cellules H3\relax }}{13}{figure.caption.29}%
 \contentsline {figure}{\numberline {2.3}{\ignorespaces Les 6 voisins d'une cellule H3 se rapproche d'un cercle, utile pour la modélisation de flux\relax }}{13}{figure.caption.30}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Agrégation des données aux cellules H3 pour générer un dataset\relax }}{14}{figure.caption.35}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Structure du modèle envisagé\relax }}{16}{figure.caption.39}%
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Principe de normalisation de la distribution d'une feature\relax }}{17}{figure.caption.40}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {A.1}{\ignorespaces Planning du stage\relax }}{24}{figure.caption.34}%
+\contentsline {figure}{\numberline {A.1}{\ignorespaces Planning du stage\relax }}{28}{figure.caption.46}%
 \addvspace {10\p@ }

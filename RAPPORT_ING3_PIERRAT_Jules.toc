@@ -24,19 +24,26 @@
 \contentsline {subsection}{\numberline {2.2.3}Technologies utilisées}{12}{subsection.2.2.3}%
 \contentsline {subsubsection}{Agrégation spatiale}{12}{section*.28}%
 \contentsline {subsubsection}{Infrasture de base de donnée}{13}{section*.31}%
-\contentsline {subsection}{\numberline {2.2.4}Entraînement et Tuning du modèle}{14}{subsection.2.2.4}%
-\contentsline {subsection}{\numberline {2.2.5}Résultats}{14}{subsection.2.2.5}%
-\contentsline {subsection}{\numberline {2.2.6}\'Evolutions possibles}{14}{subsection.2.2.6}%
-\contentsline {section}{\numberline {2.3}Prédiction de chiffre d'affaire}{14}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}Contexte}{14}{subsection.2.3.1}%
-\contentsline {subsection}{\numberline {2.3.2}Données disponibles}{14}{subsection.2.3.2}%
-\contentsline {subsection}{\numberline {2.3.3}Structure du modèle}{14}{subsection.2.3.3}%
-\contentsline {subsection}{\numberline {2.3.4}Résultats}{14}{subsection.2.3.4}%
-\contentsline {section}{\numberline {2.4}Autres missions}{14}{section.2.4}%
-\contentsline {subsection}{\numberline {2.4.1}Analyse de données - Base de donnée nationale des Bâtiments}{14}{subsection.2.4.1}%
-\contentsline {subsection}{\numberline {2.4.2}Data engineering - Scrapping et automatisation de chaîne d'acquisition de données}{14}{subsection.2.4.2}%
-\contentsline {chapter}{\numberline {3}Bilan \textsc {Ensg}}{15}{chapter.3}%
-\contentsline {section}{\numberline {3.1}...}{15}{section.3.1}%
-\contentsline {part}{Conclusion}{16}{chapter*.32}%
-\contentsline {chapter}{\numberline {A}Planning du stage}{23}{appendix.1.A}%
-\contentsline {chapter}{\numberline {B}Moindres carrés}{25}{appendix.1.B}%
+\contentsline {subsubsection}{Type de modèle utilisé}{14}{section*.33}%
+\contentsline {subsection}{\numberline {2.2.4}Préparation des données}{14}{subsection.2.2.4}%
+\contentsline {subsubsection}{Structuration des données}{14}{section*.34}%
+\contentsline {subsubsection}{Nettoyage des données}{15}{section*.37}%
+\contentsline {paragraph}{}{15}{section*.38}%
+\contentsline {subsection}{\numberline {2.2.5}Tuner et Entraînement du modèle}{15}{subsection.2.2.5}%
+\contentsline {paragraph}{}{17}{section*.41}%
+\contentsline {paragraph}{}{17}{section*.42}%
+\contentsline {paragraph}{}{17}{section*.43}%
+\contentsline {subsection}{\numberline {2.2.6}Résultats}{17}{subsection.2.2.6}%
+\contentsline {section}{\numberline {2.3}Prédiction de chiffre d'affaire}{17}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Contexte}{17}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Données}{18}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}Structure du modèle}{18}{subsection.2.3.3}%
+\contentsline {subsection}{\numberline {2.3.4}Résultats}{18}{subsection.2.3.4}%
+\contentsline {section}{\numberline {2.4}Autres missions}{18}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Analyse de données - Base de donnée nationale des Bâtiments}{18}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.2}Data engineering - Scrapping et automatisation de chaîne d'acquisition de données}{18}{subsection.2.4.2}%
+\contentsline {chapter}{\numberline {3}Bilan \textsc {Ensg}}{19}{chapter.3}%
+\contentsline {section}{\numberline {3.1}...}{19}{section.3.1}%
+\contentsline {part}{Conclusion}{20}{chapter*.44}%
+\contentsline {chapter}{\numberline {A}Planning du stage}{27}{appendix.1.A}%
+\contentsline {chapter}{\numberline {B}Moindres carrés}{29}{appendix.1.B}%

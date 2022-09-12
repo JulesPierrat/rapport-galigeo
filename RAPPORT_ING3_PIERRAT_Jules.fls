@@ -1104,6 +1104,7 @@ INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/lm/t1lmr.fd
 INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/lm/t1lmr.fd
 INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/lm/t1lmr.fd
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/lm/ec-lmcsc10.tfm
+INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/lm/ec-lmsso10.tfm
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/lm/ec-lmss17.tfm
 INPUT /usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map
 INPUT ./jury.tex
@@ -1182,6 +1183,21 @@ INPUT ./images/graphs/h3-ring.png
 INPUT images/graphs/h3-ring.png
 INPUT ./images/graphs/h3-ring.png
 INPUT ./images/graphs/h3-ring.png
+INPUT ./images/graphs/dataset.png
+INPUT ./images/graphs/dataset.png
+INPUT images/graphs/dataset.png
+INPUT ./images/graphs/dataset.png
+INPUT ./images/graphs/dataset.png
+INPUT ./images/graphs/struc_model_dnn.png
+INPUT ./images/graphs/struc_model_dnn.png
+INPUT images/graphs/struc_model_dnn.png
+INPUT ./images/graphs/struc_model_dnn.png
+INPUT ./images/graphs/struc_model_dnn.png
+INPUT ./images/graphs/fct_histo.png
+INPUT ./images/graphs/fct_histo.png
+INPUT images/graphs/fct_histo.png
+INPUT ./images/graphs/fct_histo.png
+INPUT ./images/graphs/fct_histo.png
 INPUT ./chap3.tex
 INPUT ./chap3.tex
 INPUT ./chap3.tex
@@ -1192,7 +1208,6 @@ INPUT ./chap3.tex
 INPUT chap3.tex
 INPUT ./chap3.tex
 INPUT chap3.tex
-INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/lm/ec-lmsso10.tfm
 INPUT ./RAPPORT_ING3_PIERRAT_Jules.lof
 INPUT RAPPORT_ING3_PIERRAT_Jules.lof
 INPUT RAPPORT_ING3_PIERRAT_Jules.lof
