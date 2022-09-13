@@ -2,11 +2,11 @@
 
 \section{Généralités}
 
-Dans la suite de ce rapport je vais me consacrer sur les deux missions principales que j’ai réalisées à Galigeo. La première est l’estimation d’un flux piéton à une adresse donné. (2.2) Ce n’est pas une mission réalisée pour un client en particulier, c’est une fonctionnalité qui a été ajouté dans la dernière version des logiciels SaS de Galigeo et est donc accessible pour tous les utilisateurs du service.
+Dans la suite de ce rapport je vais me consacrer sur les deux missions principales que j’ai réalisées à Galigeo. La première est l’estimation d’un flux piéton à une adresse donnée. (2.2) Ce n’est pas une mission réalisée pour un client en particulier, c’est une fonctionnalité qui a été ajoutée dans la dernière version des logiciels SaS de Galigeo et est donc accessible pour tous les utilisateurs du service.
 
 \paragraph*{}
 
-La deuxième mission est une demande spécifique d’un client de Galigeo. J’ai eu accès à des données confidentiels à l’entreprise. Toutes les illustrations, schémas ou fragments de données, pour cette partie, seront donc fictifs
+La deuxième mission est une demande spécifique d’un client de Galigeo. J’ai eu accès à des données confidentielles à l’entreprise. Toutes les illustrations, schémas ou fragments de données, pour cette partie, seront donc fictifs
 
 \paragraph*{}
 
@@ -17,7 +17,7 @@ Enfin, je terminerai rapidement sur deux autres missions clients, plus secondair
 
 \subsection{Mise en contexte}
 
-Le flux piéton est une très bonne variable pour estimer le flux de consommateur potentiel qui passe chaque jour devant une enseigne commerciale. Il est donc essentiel pour une entreprise qui fournit des services de géomarketing, de pouvoir estimer au mieux cette variable.
+Le flux piéton est une très bonne variable pour estimer le flux de consommateurs potentiels qui passe chaque jour devant une enseigne commerciale. Il est donc essentiel pour une entreprise qui fournit des services de géomarketing, de pouvoir estimer au mieux cette variable.
 
 \paragraph*{}
 
@@ -25,15 +25,15 @@ Jusqu’aujourd’hui, Galigeo s’appuyait sur des estimations calculées par u
 
 \paragraph*{}
 
-Ma mission a donc été de réaliser cet algorithme d’estimation du flux moyen de piéton sur une année autour d’une adresse donnée et ce pour l'ensemble du territoire nationale.
+Ma mission a donc été de réaliser cet algorithme d’estimation du flux moyen de piéton sur une année autour d’une adresse donnée et ce pour l'ensemble du territoire national.
 
 \paragraph{}
 
-Il a fallu néanmoins prendre en compte les contraintes techniques de l’entreprise, les biais qui pouvait être présent dans la donnée utilisée et l’efficacité de l’algorithme. Si les temps de calculs sont trop longs, l’expérience utilisateur risque d’être impactée mais il faut garder un modèle puissant afin de minimiser les erreurs de prédiction.
+Il a fallu néanmoins prendre en compte les contraintes techniques de l’entreprise, les biais qui pouvaient être présents dans la donnée utilisée et l’efficacité de l’algorithme. Si les temps de calculs sont trop longs, l’expérience utilisateur risque d’être impactée mais il faut garder un modèle puissant afin de minimiser les erreurs de prédiction.
 
 \subsection{La donnée}
 
-Pour estimer ce flux piéton, nous allons nous appuyer sur des mesures quotidiennes que Galigeo achète à un fournisseur. En effet, Galigeo reçoit quotidiennement des positions de cellulaires sur l'ensemble du territoire métropolitain. Elle en reçoit environ 70M par mois, chacune correspond à un évènement de visite. Cette donnée est collectée via des applications mobiles qui sont autorisées à transmettre au fournisseur de Galigéo la position du smartphone. Les positions sont anonymes mais possède un identifiant de smartphone ce qui permet d'avoir aussi des informations de déplacements. La donnée brute est structurée comme ci-dessous :
+Pour estimer ce flux piéton, nous allons nous appuyer sur des mesures quotidiennes que Galigeo achète à un fournisseur. En effet, Galigeo reçoit quotidiennement des positions de cellulaires sur l'ensemble du territoire métropolitain. Elle en reçoit environ 70M par mois, chacune correspondant à un évènement de visite. Cette donnée est collectée via des applications mobiles qui sont autorisées à transmettre la position du smartphone au fournisseur de Galigéo. Les positions sont anonymes mais possèdent un identifiant de smartphone ce qui permet d'avoir aussi des informations de déplacements. La donnée brute est structurée comme ci-dessous :
 
 \begin{table}[H]
     \centering
@@ -53,7 +53,7 @@ Pour estimer ce flux piéton, nous allons nous appuyer sur des mesures quotidien
 
 \paragraph*{}
 
-Nous avons également utilisé de la donnée économique pour enrichir notre modèle. En effet Open Street Map propose une base open-source de POI structuré comme ci-dessous :
+Nous avons également utilisé de la donnée économique pour enrichir notre modèle. En effet Open Street Map propose une base open-source de POI structurée comme ci-dessous :
 
 \begin{table}[H]
     \centering
@@ -70,11 +70,11 @@ Nous avons également utilisé de la donnée économique pour enrichir notre mod
 
 \paragraph*{}
 
-Il était également intéressant de rajouter de la donnée démographique à notre modèle pour cela nous avons utilisé les données de population de l'INSEE agrégé au niveau des IRIS géographiques.
+Il était également intéressant de rajouter de la donnée démographique à notre modèle. Pour cela nous avons utilisé les données de population de l'INSEE agrégées au niveau des IRIS géographiques.
 
 \paragraph*{}
 
-Nous allons utiliser des algorithmes de Machine Learning pour estimer ce trafic piéton donc il nous faut des données vraies mesuré sur le terrain afin d'entraîner un modèle. Galigeo possède plus de 11000 mesures réparties plus ou moins équitablement sur le territoire même si la plupart d'entre elles sont en milieu urbain.
+Nous allons utiliser des algorithmes de Machine Learning pour estimer ce trafic piéton. Il nous faut donc des données mesurées sur le terrain afin d'entraîner un modèle. Galigeo possède plus de 11000 mesures réparties plus ou moins équitablement sur le territoire même si la plupart d'entre elles sont en milieu urbain.
 
 \begin{figure}[H]
     \centering
@@ -87,9 +87,9 @@ Nous allons utiliser des algorithmes de Machine Learning pour estimer ce trafic 
 
 \subsubsection{Agrégation spatiale}
 
-Une fois que nous avons l'ensemble de nos données on remarque qu'elles se distingue en deux groupes de par leur nature. Les données ponctuelles (\'Evènements de visites, POI, etc.) et les données surfaciques (Population par IRIS). Pour homogénéiser notre donnée et simplifier les futurs calculs il est important de segmenter l'espaces et ajouter un index spatial à nos données.
+Une fois que nous avons l'ensemble de nos données nous remarquons qu'elles se distinguent en deux groupes de par leur nature. Les données ponctuelles (\'Evènements de visites, POI, etc.) et les données surfaciques (Population par IRIS). Pour homogénéiser notre donnée et simplifier les futurs calculs il est important de segmenter l'espace et ajouter un index spatial à nos données.
 
-Nous nous sommes dirigé vers la solution des hexagones H3 \cite{Uber_H3} développé par Uber. C'est un système d'indexation géospatiale qui constitue un pavage hexagonal de la sphère multi-échelles et dont les index sont hiérarchiques.
+Nous nous sommes dirigés vers la solution des hexagones H3 \cite{Uber_H3} développés par Uber. C'est un système d'indexation géospatiale qui constitue un pavage hexagonal de la sphère multi-échelles et dont les index sont hiérarchiques.
 
 Dans notre cas c'est la solution optimale car nous pouvons l'utiliser pour joindre nos données disparates, le format hexagonal facilite la modélisation des flux et est bien adapté pour appliquer le machine learning aux données géospatiales.
 
