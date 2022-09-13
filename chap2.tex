@@ -112,22 +112,22 @@ Dans notre cas c'est la solution optimale car nous pouvons l'utiliser pour joind
 
 Pour notre part on choisira le niveau d'échelle 11, ce qui correspond environ à un hexagone de 27 mètres de rayon.
 
-\subsubsection{Infrasture de base de donnée}
+\subsubsection{Infrastructure de base de données}
 
-Pour stocker toutes ces données, Galigeo utilise un service de Cloud Computing \footnote{A compléter} nommé Google Cloud Plateform (GCP) qui permet de stocker une grande quantité de donnée et de faire des calculs plus ou moins complexe sur celle-ci.
+Pour stocker toutes ces données, Galigeo utilise un service de Cloud Computing \footnote{A compléter} nommé Google Cloud Plateform (GCP) qui permet de stocker une grande quantité de données et de faire des calculs plus ou moins complexes sur celle-ci.
 
 \paragraph*{}
 
-Un des grands avantages de cette solution est l'intégration de Tensorflow, une bibliothèque open-source développé par Google pour faire du machine learning et de l'intelligence artificielle. Elle est très utile pour l'entraînement de réseaux de neurones profonds (DNN).
+Un des grands avantages de cette solution est l'intégration de Tensorflow, une bibliothèque open-source développée par Google pour faire du machine learning et de l'intelligence artificielle. Elle est très utile pour l'entraînement de réseaux de neurones profonds (DNN).
 
-Nous pouvons également y combiner Keras, une interface open-source conçu pour simplifier l'utilisation de Tensorflow.
+Nous pouvons également y combiner Keras, une interface open-source conçue pour simplifier l'utilisation de Tensorflow.
 
 
 \subsubsection{Type de modèle utilisé}
 
-\'Etant donné les choix précédents, nous nous sommes donc orientés vers un modèle de Deep Neural Network (DNN).
+\'Etant donnés les choix précédents, nous nous sommes donc orientés vers un modèle de Deep Neural Network (DNN).
 
-Il est cependant important de noté que les modèles de Deep Neural Network, prouve leur meilleure efficacité par rapport à d'autre modèle de Machine Learning lorsque la donnée est non structurée et que la taille du dataset \footnote{A compléter} est importantes (plusieurs millions de lignes)
+Il est cependant important de noter que les modèles de Deep Neural Network, prouvent leur meilleure efficacité par rapport à d'autre modèles de Machine Learning lorsque la donnée est non structurée et que la taille du dataset \footnote{A compléter} est importante (plusieurs millions de lignes)
 
 Dans notre cas, ces conditions ne sont pas remplies mais nous verrons plus tard dans ce rapport les alternatives envisagées.
 
@@ -140,7 +140,7 @@ Cette étape est cruciale pour obtenir des bons résultats après la modélisati
 
 Pour cela, nous avons projeté l'ensemble de notre donnée brute sur la grille H3 d'Uber. Pour chaque valeur de flux piéton mesuré, nous avons calculé le nombre de visites dans la même cellule ainsi que dans les cellules voisines. Nous avons agrégé ces données events par mois sur une année complète de septembre 2021 à août 2022.
 
-Nous avons appliqué le même principe spatial pour les POIs. Les cellules voisines se calcul très facilement grâce aux fonctions open-source mise à disposition. Ainsi on peut calculer différents anneaux autour de notre cellule de départ.
+Nous avons appliqué le même principe spatial pour les POIs. Les cellules voisines se calculent très facilement grâce aux fonctions open-source mises à disposition. Ainsi on peut calculer différents anneaux autour de notre cellule de départ.
 
 
 \begin{figure}[H]
@@ -151,7 +151,7 @@ Nous avons appliqué le même principe spatial pour les POIs. Les cellules voisi
     \label{fig:dataset_aggregation}
 \end{figure}
 
-Pour ce qui est de la donnée de population, nous avons simplement pris le centroïde de la cellule H3, et l'avons intersecté avec les géométries des IRIS françaises afin de déterminé dans quel IRIS la cellule se trouve.
+Pour ce qui est de la donnée de population, nous avons simplement pris le centroïde de la cellule H3, et l'avons intersecté avec les géométries des IRIS françaises afin de déterminer dans quel IRIS la cellule se trouve.
 
 Nous avons obtenu alors une structure de dataset comme ci-dessous. Une feature est un paramètre du modèle et le label est la variable à estimer.
 
@@ -165,14 +165,14 @@ Nous avons obtenu alors une structure de dataset comme ci-dessous. Une feature e
     visits\_MMAAAA & feature       & Nb events dans la cellule H3 par mois (x12)                        \\ \hline
     visits        & feature       & Nb events dans la cellule H3 sur l'année                          \\ \hline
     visits\_k1     & feature       & Nb events dans la cellule H3 et l'anneau 1 sur l'année            \\ \hline
-    visits\_k2     & feature       & Nb events dans la cellule H3 et les annaux 1, 2 sur l'année       \\ \hline
-    visits\_k3     & feature       & Nb events dans la cellule H3 et les annaux 1, 2, 3 sur l'année    \\ \hline
-    visits\_k4     & feature       & Nb events dans la cellule H3 et les annaux 1, 2, 3, 4 sur l'année \\ \hline
+    visits\_k2     & feature       & Nb events dans la cellule H3 et les anneaux 1, 2 sur l'année       \\ \hline
+    visits\_k3     & feature       & Nb events dans la cellule H3 et les anneaux 1, 2, 3 sur l'année    \\ \hline
+    visits\_k4     & feature       & Nb events dans la cellule H3 et les anneaux 1, 2, 3, 4 sur l'année \\ \hline
     poi\_N        & feature       & Nb de POI dans la cellule H3 par nature                                 \\ \hline
     poi\_N\_k1    & feature       & Nb de POI dans la cellule H3 et l'anneau 1 par nature                   \\ \hline
-    poi\_N\_k2    & feature       & Nb de POI dans la cellule H3 et les annaux 1, 2 par nature              \\ \hline
-    poi\_N\_k3    & feature       & Nb de POI dans la cellule H3 et les annaux 1, 2, 3 par nature           \\ \hline
-    poi\_N\_k4    & feature       & Nb de POI dans la cellule H3 et les annaux 1, 2 , 3 , 4 par nature      \\ \hline
+    poi\_N\_k2    & feature       & Nb de POI dans la cellule H3 et les anneaux 1, 2 par nature              \\ \hline
+    poi\_N\_k3    & feature       & Nb de POI dans la cellule H3 et les anneaux 1, 2, 3 par nature           \\ \hline
+    poi\_N\_k4    & feature       & Nb de POI dans la cellule H3 et les anneaux 1, 2 , 3 , 4 par nature      \\ \hline
     population           & feature       & Population in the IRIS of the H3 cell                                   \\ \hline
     footfall             & label         & Flux piéton mesuré en un point de la cellule H3                         \\ \hline
     \end{tabular}
@@ -183,14 +183,14 @@ On obtient alors un dataset d'environ 11000 lignes et 14 colonnes.
 
 \subsubsection{Nettoyage des données}
 
-La deuxième étape de la préparation des données consiste à les nettoyer pour supprimer d'abords les lignes où il manquerait certaines variables puis celle dont les valeurs du label sont aberrantes.
+La deuxième étape de la préparation des données consiste à les nettoyer pour supprimer d'abord les lignes où il manquerait certaines variables puis celles dont les valeurs du label sont aberrantes.
 
 On se retrouve alors avec un dataset réduit de 40\%, il reste environ 6500 lignes.
 
 \paragraph{}
 
 
-Une fois ces deux étapes réalisées, nous pouvons sortir différents graphiques statistiques disponible en annexe : KDE, Matrice de corrélation, Répartitions des features.
+Une fois ces deux étapes réalisées, nous pouvons sortir différents graphiques statistiques disponibles en annexe : KDE, Matrice de corrélation, Répartition des features.
 
 
 \subsection{Tuner et Entraînement du modèle}
@@ -217,16 +217,16 @@ La première étape de notre modèle est donc de normaliser la distribution de n
 
 L'étape suivante est de normaliser les valeurs de nos features (cette fois ci, on ne modifie pas le label). Pour cela, il existe principalement deux types de normalisation : La normalisation min/max et la normalisation moyenne/écart-type.
 
-Cela permet entre autres d'assurer une cohérence entre les données et permet à l'exécution d'être plus rapide et meilleure.
+Cela permet entre autre d'assurer une cohérence entre les données et permet à l'exécution d'être plus rapide et meilleure.
 
 
 \paragraph{}
 
-Une fois cette étape réalisée, nous divisons en deux partie aléatoire (la proportion est contrôlée) le dataset normalisé. La partie "trainset" permet d'entraîner le modèle et la partie "testset" permet de vérifier si le modèle est correctement entraîné.
+Une fois cette étape réalisée, nous divisons en deux parties aléatoires (la proportion est contrôlée) le dataset normalisé. La partie "trainset" permet d'entraîner le modèle et la partie "testset" permet de vérifier si le modèle est correctement entraîné.
 
 \paragraph{}
 
-L'objectif est maintenant d'obtenir un réseau de neurones entraîné. Pour cela, nous utilisons un modèle construit sur les hyperparamètres et lui passons l'ensemble du trainset en entré. En parcourant l'ensemble des données et en essayant d'estimer le label, le réseau de neurone apprend et règle ses paramètres internes (poids des axones, valeur interne des neurones, etc.) en appliquant une validation croisée.
+L'objectif est maintenant d'obtenir un réseau de neurones entraîné. Pour cela, nous utilisons un modèle construit sur les hyperparamètres et lui passons l'ensemble du trainset en entrée. En parcourant l'ensemble des données et en essayant d'estimer le label, le réseau de neurone apprend et règle ses paramètres internes (poids des axones, valeur interne des neurones, etc.) en appliquant une validation croisée.
 
 De cette étape, nous récupérons un réseau de neurones profonds qui permet maintenant d'estimer notre label en fonction de nos features.
 
@@ -242,19 +242,19 @@ Nous passons donc notre testset dans notre réseau neuronal. Cela nous permet d'
     \begin{tabular}{l|l|l|}
     \cline{2-3}
                                             & \textbf{Test set} & \textbf{Training set} \\ \hline
-    \multicolumn{1}{|l|}{\textbf{RMSE}}     & 1 000 000         & 500000                \\ \hline
+    \multicolumn{1}{|l|}{\textbf{RMSE}}     & 1 000 000         & 500 000                \\ \hline
     \multicolumn{1}{|l|}{\textbf{R2 Score}} & 0.45              & 0.86                  \\ \hline
     \end{tabular}
     \caption{Résumé des résultats}
 \end{table}
 
-Pour estimer la qualité de notre modèle, il faut regarder les résultats de la colonne de gauche, "Test set". On remarque tout de suite que l’erreur moyenne quadratique est d’environ 1000000. Or, si l’on se réfère à l’annexe B, Statistiques du modèle, on remarque que le flux piétons médians de 1000000 également.
+Pour estimer la qualité de notre modèle, il faut regarder les résultats de la colonne de gauche, "Test set". On remarque tout de suite que l’erreur moyenne quadratique est d’environ 1000000. Or, si l’on se réfère à l’annexe B, Statistiques du modèle, on remarque que le flux piéton médian est de 1000000 également.
 
 Le R2 score est également faible. Idéalement, il devrait se rapprocher de 1. L’estimation que fait le modèle n’est donc pas encore suffisante. 
 
 \paragraph*{}
 
-Cependant Galigeo renforce son dataset à chaque arrivée de donnée ce qui peut améliorer les résultats par la suite. Il se peut également que 6500 entrés soit trop peu et que l’enrichissement de mesure permette également de rendre plus précises les estimations du model.
+Cependant Galigeo renforce son dataset à chaque arrivée de données ce qui peut améliorer les résultats par la suite. Il se peut également que 6500 entrées soit trop peu et que l’enrichissement de mesure permette également de rendre plus précises les estimations du modèle.
 
 Nous avons également discuté de nombreuses autres pistes pour obtenir des résultats plus intéressant mais je les détaillerai dans la partie 3.1 de ce rapport.
 
@@ -264,11 +264,11 @@ Nous avons également discuté de nombreuses autres pistes pour obtenir des rés
 
 Pour qu’une entreprise continue à croître et à se développer, elle peut étendre son aire d’attraction et ainsi cibler plus de clients. L’entreprise décide alors d’ouvrir une nouvelle enseigne. Le choix de l’emplacement est alors stratégique.
 
-Pour ce projet, un client de Galigeo souhaite implanter de nouvelles enseignes sur le territoire français. Pour ce faire il souhaite estimer le chiffre d’affaires et la cannibalisation \footnote {A compléter} qu’engendrerai un magasin en fonction de sa localisation, de sa surface, du type de magasin et du flux piéton moyen à l’adresse. 
+Pour ce projet, un client de Galigeo souhaite implanter de nouvelles enseignes sur le territoire français. Pour ce faire il souhaite estimer le chiffre d’affaires qu’engendrerait un magasin en fonction de sa localisation, de sa surface, du type de magasin et du flux piéton moyen à l’adresse. 
 
 \paragraph{}
 
-Il a donc fallu créer un modèle prédictif du chiffre d’affaires et de la cannibalisation en s’entraînant sur les données des enseignes existantes. Cependant, cette entreprise possède 150 enseignes environ en France et cela semble insuffisant pour entraîner un modèle de machine learning. Nous avons donc utilisé une autre méthode pour démultiplier les données.
+Il a donc fallu créer un modèle prédictif du chiffre d’affaires en s’entraînant sur les données des enseignes existantes. Cependant, cette entreprise possède 150 enseignes environ en France et cela semble insuffisant pour entraîner un modèle de machine learning. Nous avons donc utilisé une autre méthode pour démultiplier les données.
 
 
 \subsection{Données}
@@ -281,12 +281,12 @@ La France est découpée en 15 500 IRIS (îlots Regroupés pour l'Information St
     \item Des données socio-démographiques pour chaque IRIS (tranche d’âge, nombre de ménage, revenue moyen, …)
     \item Un distancier des Iris (permet de connaitre la distance et le temps de parcours entre deux centroïdes d’Iris)
     \item Une estimation de la valeur du marché dans chaque IRIS
-    \item Une valeur de chiffre d’affaires pour chaque enseigne dans chaque IRIS (C’est ici le chiffre d’affaires tracé, une partie du chiffre d’affaires de chaque enseigne ne peut pas être localisé)
+    \item Une valeur de chiffre d’affaires pour chaque enseigne dans chaque IRIS (C’est ici le chiffre d’affaires tracé, une partie du chiffre d’affaires de chaque enseigne ne peut pas être localisée)
 \end{itemize}
 
 \paragraph{}
 
-On peut alors créer un dataset où chaque élément correspond à un iris pour un magasin et agréger le reste de la donnée à cette structure. On cherchera alors à estimer une part de marché, qui correspond à la quantité de marché détenu par un magasin particulier. Chaque enseigne connait l'origine géographique d'une partie de son chiffre d'affaire (~20\%), on peut donc connaitre cette part de marché sous-évalué, en divisant ce chiffre d'affaire tracé par la valeur du marché dans un IRIS donnée.
+On peut alors créer un dataset où chaque élément correspond à un iris pour un magasin et agréger le reste de la donnée à cette structure. On cherchera alors à estimer une part de marché, qui correspond à la quantité de marché détenu par un magasin particulier. Chaque enseigne connait l'origine géographique d'une partie de son chiffre d'affaire (~20\%), on peut donc connaitre cette part de marché sous-évaluée, en divisant ce chiffre d'affaire tracé par la valeur du marché dans un IRIS donnée.
 
 \begin{figure}[H]
     \centering
@@ -298,8 +298,8 @@ On peut alors créer un dataset où chaque élément correspond à un iris pour 
 
 \subsection{Structure du modèle}
 
-Cette fois si, il était plus intéressant de ne pas choisir un algorithme de Deep Learning mais un algorithme de machine learning moins coûteux en ressource comme un régresseur « Random Forest » ou un « XGBoost ».
-On utilisera la même structure de modèle qu’à la partie 2.2 mais cette fois si la normalisation est moins importante car le modèle n’est pas composé de neurones mais d’arbres de décisions.
+Cette fois-ci, il était plus intéressant de ne pas choisir un algorithme de Deep Learning mais un algorithme de machine learning moins coûteux en ressource comme un régresseur « Random Forest » ou un « XGBoost ».
+On utilisera la même structure de modèle qu’à la partie 2.2 mais cette fois-ci la normalisation est moins importante car le modèle n’est pas composé de neurones mais d’arbres de décisions.
 Nous avons alors comparé les deux solutions et sélectionné l’algorithme XGBoost.
 
 
@@ -307,29 +307,29 @@ Nous avons alors comparé les deux solutions et sélectionné l’algorithme XGB
 
 \section{Autres missions}
 
-\subsection{Analyse de données - Base de donnée nationale des Bâtiments}
+\subsection{Analyse de données - Base de données nationale des Bâtiments}
 
-Pendant mon stage, j’ai également pu travailler sur d’autre petite mission pour des clients de Galigeo pour lesquels il n’était pas forcément question de machine learning.
-
-\paragraph{}
-
-Un client de Galigeo réalise de la prospection chez des particuliers. Jusqu’ici, la prospection était organisée très simplement, un quartier était sélectionné et les prospecteurs passaient dans chaque habitation. Ce client cible les habitations se chauffant à l’électricité et il arrive souvent que certaines des habitations prospectées se chauffent au gaz ou autre. Dans un souci d’économie et de gain de temps, nous avons donc tenter de cibler les prospections.
-
-En janvier 2022, une Base de Donnée Nationale des Bâtiments \cite{BDNB} est mise en ligne en open-source. C’est une base très complète avec plus de 90\% des géométries renseignés. Environ 25\% des bâtiments possède des informations énergétiques dont on ne connait pas la qualité. Le client et Galigeo ont donc décidé de mener une campagne de prospection cet été en s’appuyant sur cette base de données afin de qualifier les données énergétiques disponibles. Nous avons donc fait de l’analyse de donnée sur quelques IRIS (à Rennes et à Paris) pour lancer la campagne de prospection.
+Pendant mon stage, j’ai également pu travailler sur d’autres petites missions pour des clients de Galigeo pour lesquels il n’était pas forcément question de machine learning.
 
 \paragraph{}
 
-Aujourd’hui les campagnes de prospection sont toujours en cours mais le résultat semble positif. Si la base de données est retenue pour diriger les campagnes de prospections du client, il faudra automatiser les processus d’analyse pour envoyer la donnée traitée dans leur application métier développé par Galigeo.
+Un client de Galigeo réalise de la prospection chez des particuliers. Jusqu’ici, la prospection était organisée très simplement, un quartier était sélectionné et les prospecteurs passaient dans chaque habitation. Ce client cible les habitations se chauffant à l’électricité et il arrive souvent que certaines des habitations prospectées se chauffent au gaz ou autre. Dans un souci d’économie et de gain de temps, nous avons donc tenté de cibler les prospections.
+
+En janvier 2022, une Base de Données Nationale des Bâtiments \cite{BDNB} est mise en ligne en open-source. C’est une base très complète avec plus de 90\% des géométries renseignés. Environ 25\% des bâtiments possèdent des informations énergétiques dont on ne connait pas la qualité. Le client et Galigeo ont donc décidé de mener une campagne de prospections cet été en s’appuyant sur cette base de données afin de qualifier les données énergétiques disponibles. Nous avons donc fait de l’analyse de données sur quelques IRIS (à Rennes et à Paris) pour lancer la campagne de prospection.
+
+\paragraph{}
+
+Aujourd’hui les campagnes de prospections sont toujours en cours mais le résultat semble positif. Si la base de données est retenue pour diriger les campagnes de prospections du client, il faudra automatiser les processus d’analyse pour envoyer la donnée traitée dans leur application métier développée par Galigeo.
 
 Sachant que seulement 25\% des bâtiments ont des données énergétiques, il sera peut-être intéressant un jour d’utiliser un algorithme de classification par machine learning pour interpoler ces informations manquantes sur le reste de la base. 
 
 
 \subsection{Data engineering - Scrapping et automatisation de chaîne d'acquisition de données}
 
-Une autre mission que j’ai pu réaliser était pour un client international de Galigeo. Ils utilisaient la solution de Galigeo pour leurs compagnies en France et souhaitent l’utiliser dans 13 nouveaux pays. La solution actuelle permet de sortir des rapports de géomarketing poussé qui s’appuie sur de très grandes quantités de données.
+Une autre mission que j’ai pu réaliser était pour un client international de Galigeo. Ils utilisaient la solution de Galigeo pour leurs compagnies en France et souhaitent l’utiliser dans 13 nouveaux pays. La solution actuelle permet de sortir des rapports de géomarketing poussés qui s’appuient sur de très grandes quantités de données.
 
-L’objectif était donc de récupérer de la donnée en quantité et d’automatiser son processus de publication dans une base de données. J’ai donc écrit des scripts permettant de scrapper des site web de concurrents pour récupérer de la donnée non structurée pour l’organiser. J’ai aussi dû automatiser des requêtes via des API afin de récupérer des données ponctuelles sur un pays entier.
+L’objectif était donc de récupérer de la donnée en quantité et d’automatiser son processus de publication dans une base de données. J’ai donc écrit des scripts permettant de scrapper des sites web de concurrents pour récupérer de la donnée non structurée pour l’organiser. J’ai aussi dû automatiser des requêtes via des API afin de récupérer des données ponctuelles sur un pays entier.
 
 \paragraph*{}
 
-Ce projet est encore en cours à la date où je rédige ce rapport. L’application et la base de donnée complète devrait être livré pour la mi-octobre.
+Ce projet est encore en cours à la date où je rédige ce rapport. L’application et la base de données complète devrait être livrée pour la mi-octobre.
