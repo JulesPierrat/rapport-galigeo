@@ -114,7 +114,7 @@ Pour notre part on choisira le niveau d'échelle 11, ce qui correspond environ �
 
 \subsubsection{Infrastructure de base de données}
 
-Pour stocker toutes ces données, Galigeo utilise un service de Cloud Computing \footnote{A compléter} nommé Google Cloud Plateform (GCP) qui permet de stocker une grande quantité de données et de faire des calculs plus ou moins complexes sur celle-ci.
+Pour stocker toutes ces données, Galigeo utilise un service de Cloud Computing \footnote{Ensemble de services et de machines informatiques délocalisés dans un cloud} nommé Google Cloud Plateform (GCP) qui permet de stocker une grande quantité de données et de faire des calculs plus ou moins complexes sur celle-ci.
 
 \paragraph*{}
 
@@ -127,7 +127,7 @@ Nous pouvons également y combiner Keras, une interface open-source conçue pour
 
 \'Etant donnés les choix précédents, nous nous sommes donc orientés vers un modèle de Deep Neural Network (DNN).
 
-Il est cependant important de noter que les modèles de Deep Neural Network, prouvent leur meilleure efficacité par rapport à d'autre modèles de Machine Learning lorsque la donnée est non structurée et que la taille du dataset \footnote{A compléter} est importante (plusieurs millions de lignes)
+Il est cependant important de noter que les modèles de Deep Neural Network, prouvent leur meilleure efficacité par rapport à d'autre modèles de Machine Learning lorsque la donnée est non structurée et que la taille du dataset \footnote{Tableau de données} est importante (plusieurs millions de lignes)
 
 Dans notre cas, ces conditions ne sont pas remplies mais nous verrons plus tard dans ce rapport les alternatives envisagées.
 
@@ -300,10 +300,25 @@ On peut alors créer un dataset où chaque élément correspond à un iris pour 
 
 Cette fois-ci, il était plus intéressant de ne pas choisir un algorithme de Deep Learning mais un algorithme de machine learning moins coûteux en ressource comme un régresseur « Random Forest » ou un « XGBoost ».
 On utilisera la même structure de modèle qu’à la partie 2.2 mais cette fois-ci la normalisation est moins importante car le modèle n’est pas composé de neurones mais d’arbres de décisions.
-Nous avons alors comparé les deux solutions et sélectionné l’algorithme XGBoost.
+Nous avons donc,cette fois-ci, fait deux fois la manipulation: une fois avec un régresseur XGBoost et une fois avec  un régresseur RandomForest pour choisir le modèle le mieux approprié.
 
 
 \subsection{Résultats}
+
+Grâce à nos deux modèles, nous avons pu faire des prédictions et les comparer:
+
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=13cm]{images/graphs/result_ca.png}
+    \captionsetup{justification=centering}
+    \caption{Résultat: Prédiction en fonction des mesures}
+    \label{fig:result_ca}
+\end{figure}
+
+Nous avons donc choisi d'utiliser le modèle XGBoost qui nous permet d'avoir des prédiction beaucoup plus fiable.
+
+\'A l'heure actuelle, nous attendons une réunion avec le client afin de vérifier que nos résultats concordent avec les leurs.
 
 \section{Autres missions}
 

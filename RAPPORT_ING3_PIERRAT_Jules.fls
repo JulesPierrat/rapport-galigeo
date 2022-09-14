@@ -1203,6 +1203,11 @@ INPUT ./images/graphs/data_ca.png
 INPUT images/graphs/data_ca.png
 INPUT ./images/graphs/data_ca.png
 INPUT ./images/graphs/data_ca.png
+INPUT ./images/graphs/result_ca.png
+INPUT ./images/graphs/result_ca.png
+INPUT images/graphs/result_ca.png
+INPUT ./images/graphs/result_ca.png
+INPUT ./images/graphs/result_ca.png
 INPUT ./chap3.tex
 INPUT ./chap3.tex
 INPUT ./chap3.tex

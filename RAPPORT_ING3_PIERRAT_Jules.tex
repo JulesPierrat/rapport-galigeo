@@ -110,7 +110,7 @@ Avant toute chose, je tiens à remercier le lecteur pour l’intérêt qu’il p
 
 Tout d'abord, j'adresse mes remerciements à mon professeur, \textbf{Mr Loïc Landrieux de l’Ecole Nationale des Sciences Géographiques}, mon maître de stage qui m’a suivi tout au long de ce stage, m’a guidé et éclairé dans mes décisions.
 
-Je tiens à remercier mon maître de stage, \textbf{Jean-Michel Gaudin, Responsable du pôle recherche et développement à Galigeo} pour son suivi et l’intérêt qu’il a porté à mes travaux réalisés pendant le stage. Je remercie également \textbf{Raimana Teina, Data Scientist chez Galigeo} qui m’a guidé dans mes travaux et grâce à qui j’ai énormément progressé et appris durant toute ma période de stage. Mes remerciements vont également à \textbf{Sébastien Connesson, COO de Galigeo}, qui m’a permis de comprendre au mieux l’organisation de l’entreprise, les relations internes, les enjeux et les rapports aux clients.
+Je tiens à remercier mon maître de stage, \textbf{Jean-Michel Gaudin, Product Leader chez Galigeo} pour son suivi et l’intérêt qu’il a porté à mes travaux réalisés pendant le stage. Je remercie également \textbf{Raimana Teina, Product Dev Leader chez Galigeo} qui m’a guidé dans mes travaux et grâce à qui j’ai énormément progressé et appris durant toute ma période de stage. Mes remerciements vont également à \textbf{Sébastien Connesson, COO de Galigeo}, qui m’a permis de comprendre au mieux l’organisation de l’entreprise, les relations internes, les enjeux et les rapports aux clients.
 
 Je remercie évidement tout le reste de \textbf{l’équipe de Galigeo} pour son accueil, la confiance qu’ils m’ont accordée, leurs conseils et leur bienveillance. Je suis très heureux d’avoir pu travailler avec eux et me réjouis de continuer à le faire.
 
@@ -125,11 +125,22 @@ Enfin, je tiens à remercier toutes les personnes qui m'ont conseillé et relu l
 \thispagestyle{empty}
 	\vspace{1cm}
 
-	Ceci est mon résumé bla bla bla
+	Ce document a pour objectif de rapporter au mieux mon expérience de stage de fin d'études chez Galigeo, entreprise spécialisée dans le géomarketing.
+
+  \paragraph{}
+
+  En fin de cycle ingénieur à l'École Nationale des sciences géographiques, je dois réaliser un stage de 6 mois dans le milieu professionnel. Pour ma dernière année, je me suis spécialisé dans les techniques de systèmes d'informations (TSI) et j'ai pu découvrir en profondeur des notions comme le développement web, l'intelligence artificielle et la data science. Ce sont des domaines que j'ai adoré découvrir et je voulais en apprendre plus au sein d'une entreprise.
+
+  Galigeo proposait un stage de machine learning en s'appuyant sur du big data ce qui correspondait exactement à mes envies. C'est une entreprise spécialisée en géomarketing ce qui est une notion toute nouvelle pour moi.
+
+  \paragraph{}
+
+  J'ai pu travailler sur des modèles de prédiction de flux piéton, de chiffre d'affaires, etc. J'ai eu la chance de réaliser de nombreux projets très intéressants et complets. Je détails donc mes travaux dans la suite de ce document.
+
 	
 	\vspace{1.5cm}
 	
-	\textbf{Mots clés :} clés, clés, clés
+	\textbf{Mots clés :} Géomarketing, Machine Learning, Flux piéton
 \end{abstract}
 %-----------------------
 
@@ -140,11 +151,22 @@ Enfin, je tiens à remercier toutes les personnes qui m'ont conseillé et relu l
 \thispagestyle{empty}
 	\vspace{1cm}
 	
-	This is my abstract blah blah blah...
-	
+  This document aims to report as best as possible my experience as an intern at Galigeo, a company specialised in geomarketing.
+
+  \paragraph{}
+
+  At the end of my engineering studies at the National School of Geographic Sciences, I have to do a 6-month internship in a professional environment. For my last year, I specialised in computer science and I was able to discover in depth notions like web development, artificial intelligence and data science. These are areas I loved to discover and I wanted to learn more within a company.
+
+  Galigeo offered an internship in machine learning based on big data, which was exactly what I wanted. It is a company specialised in geomarketing which is a very new concept for me.
+
+  \paragraph{}
+
+  I was able to work on pedestrian flow prediction models, turnover models, etc. I had the chance to realize many very interesting and complete projects. I will detail my work in the rest of this document.
+
 	\vspace{1.5cm}
 	
-	\textbf{Key words:} key, key, key
+	\textbf{Key words:} Buisness Location Intelligence, Geomarketing, Pedestrian flow, Machine Learning
+
 \end{abstract}
 %----------------------
 
@@ -187,7 +209,7 @@ Enfin, je tiens à remercier toutes les personnes qui m'ont conseillé et relu l
 
 Le géomarketing ou Location Business Intelligence en anglais est un pilier du marketing. Il étudie la variation des marchés dans l’espace. Les objectifs sont de modéliser offres et demandes en fonction de données économiques, sociales, culturelles, administratives et démographiques et leurs variations en fonction des géographies.
 
-C’est un domaine essentiel pour les entreprises qui cherchent à développer leurs espaces d’action. En effet, c’est une solution qui aide à la prise de décision pour le développement d’un business. Il permet de choisir les sites stratégiques les plus appropriés pour implanter un nouveau commerce. La réalisation de modèle ou de simulation sont des outils essentiels en vue de comparer les atouts et risques d’une future implantation. En étudiant les espaces entourant toutes ses enseignes, une entreprise peut également anticiper la cannibalisation\footnote{A compléter} ou la segmentation des portefeuilles \footnote{A compléter} en prenant tous les paramètres réunis en un point de l’espace.
+C’est un domaine essentiel pour les entreprises qui cherchent à développer leurs espaces d’action. En effet, c’est une solution qui aide à la prise de décision pour le développement d’un business. Il permet de choisir les sites stratégiques les plus appropriés pour implanter un nouveau commerce. La réalisation de modèle ou de simulation sont des outils essentiels en vue de comparer les atouts et risques d’une future implantation. En étudiant les espaces entourant toutes ses enseignes, une entreprise peut également anticiper la cannibalisation\footnote{Réduction du volume de vente d'une enseigne dû l'arrivée sur le marché d'une nouvelle enseigne de la même entreprise} ou la segmentation des portefeuilles en prenant tous les paramètres réunis en un point de l’espace.
 
 Il permet également d’établir des stratégies de marketing rentables et efficaces en établissant des profils de susceptibles consommateurs. En modélisant de manière précise et orientée dans le sens des besoins de l’entreprise ces profils, on obtient alors une idée complète des déplacements et des comportements réels des consommateurs. Les stratégies de prospection et communication sont donc amenées à être plus efficaces.
 
@@ -201,7 +223,7 @@ Ces dernières années, les solutions de géomarketing s’appuient de plus en p
 
 Les algorithmes de Machine Learning sont des outils puissants pour estimer spatialement les flux piétons utiles aux analyses de géomarketing. Ils nécessitent cependant des quantités de données très importantes pour obtenir les précisions nécessaires.
 
-Mon stage a consisté en partie à la réalisation de ce modèle prédictif. Ce genre de mission est typique au métier de Géo Data Scientist \footnote{A completer} et c’est donc autour de cette mission que je développe mon rapport de stage.
+Mon stage a consisté en partie à la réalisation de ce modèle prédictif. Ce genre de mission est typique au métier de Géo Data Scientist \footnote{Spécialiste de la donnée géographique} et c’est donc autour de cette mission que je développe mon rapport de stage.
 
 
 
@@ -221,7 +243,17 @@ Mon stage a consisté en partie à la réalisation de ce modèle prédictif. Ce 
 \chapter*{Conclusion}
   \addcontentsline{toc}{part}{Conclusion}
   \vspace{1.5cm}
-Il est l'heure de conclure : bonne nuit !
+
+
+  Je suis très heureux du déroulement de ce stage. Les objectifs fixés et personnels ont été atteint et dépassé selon moi.
+
+  \paragraph{}
+
+  J'ai beaucoup progressé techniquement et j'ai pu approfondir les notions vues cette année qui me tenaient à coeur. J'ai découvert de nouveaux métiers, de nouveaux enjeux et de nouvelles méthodologies. J'ai pu travailler sur de nouveaux projets, tous différents et source de réflexion.
+
+  J'ai également appris à travailler avec une équipe de développeurs, à tenir des objectifs, à répondre au besoin des clients. Je me suis rendu compte de l'importance de la compétitivité et de l'intérêt porté par toute sorte d'entreprise à des équipes performantes et modernes.
+
+  Galigeo m'a très bien accueilli et j'ai adoré rencontrer et travaillé avec l'ensemble des collaborateurs. Je suis très heureux de leur proposition de CDI et j'ai donc décidé de continuer à travailler avec eux après ce stage.
 
 
 %-------------------------------------------------------------------------------
