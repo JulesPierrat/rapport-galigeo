@@ -2,7 +2,7 @@
 
 \section{Généralités}
 
-Dans la suite de ce rapport je vais me consacrer sur les deux missions principales que j’ai réalisées à Galigeo. La première est l’estimation d’un flux piéton à une adresse donnée. (2.2) Ce n’est pas une mission réalisée pour un client en particulier, c’est une fonctionnalité qui a été ajoutée dans la dernière version des logiciels SaS de Galigeo et est donc accessible pour tous les utilisateurs du service.
+Dans la suite de ce rapport je vais me consacrer sur les deux missions principales que j’ai réalisées à Galigeo. La première est l’estimation d’un flux piéton à une adresse donnée. (2.2) Ce n’est pas une mission réalisée pour un client en particulier, c’est une fonctionnalité qui a été ajoutée dans la dernière version des logiciels SaaS de Galigeo et est donc accessible pour tous les utilisateurs du service.
 
 \paragraph*{}
 
@@ -169,10 +169,10 @@ Nous avons obtenu alors une structure de dataset comme ci-dessous. Une feature e
     visits\_k3     & feature       & Nb events dans la cellule H3 et les anneaux 1, 2, 3 sur l'année    \\ \hline
     visits\_k4     & feature       & Nb events dans la cellule H3 et les anneaux 1, 2, 3, 4 sur l'année \\ \hline
     poi\_N        & feature       & Nb de POI dans la cellule H3 par nature                                 \\ \hline
-    poi\_N\_k1    & feature       & Nb de POI dans la cellule H3 et l'anneau 1 par nature                   \\ \hline
-    poi\_N\_k2    & feature       & Nb de POI dans la cellule H3 et les anneaux 1, 2 par nature              \\ \hline
-    poi\_N\_k3    & feature       & Nb de POI dans la cellule H3 et les anneaux 1, 2, 3 par nature           \\ \hline
-    poi\_N\_k4    & feature       & Nb de POI dans la cellule H3 et les anneaux 1, 2 , 3 , 4 par nature      \\ \hline
+    poi\_N\_k1    & feature       & Nb de POI dans l'anneau 1 par nature                   \\ \hline
+    poi\_N\_k2    & feature       & Nb de POI dans les anneaux 1, 2 par nature              \\ \hline
+    poi\_N\_k3    & feature       & Nb de POI dans les anneaux 1, 2, 3 par nature           \\ \hline
+    poi\_N\_k4    & feature       & Nb de POI dans les anneaux 1, 2, 3, 4 par nature      \\ \hline
     population           & feature       & Population in the IRIS of the H3 cell                                   \\ \hline
     footfall             & label         & Flux piéton mesuré en un point de la cellule H3                         \\ \hline
     \end{tabular}
@@ -195,7 +195,7 @@ Une fois ces deux étapes réalisées, nous pouvons sortir différents graphique
 
 \subsection{Tuner et Entraînement du modèle}
 
-Notre dataset est maintenant prêt à être utilisé comme base d'apprentissage. Nous avons donc créé une structure de modèle. Cette structure possède des paramètres appelés Hyperparamètres. Chaque hyperparamètre peut prendre une valeur parmi une liste bien définie. Le principe du Tuner est de compiler ce modèle plusieurs fois avec des valeurs d'hyperparamètre bien différentes et choisies aléatoirement.
+Notre dataset est maintenant prêt à être utilisé comme base d'apprentissage. Nous avons donc créé une structure de modèle. Cette structure possède des paramètres appelés Hyperparamètres. Chaque hyperparamètre peut prendre une valeur parmi une liste bien définie. Le principe du Tuner est de compiler ce modèle plusieurs fois avec des valeurs d'hyperparamètres bien différentes et choisies aléatoirement.
 
 \begin{figure}[H]
     \centering
@@ -205,7 +205,7 @@ Notre dataset est maintenant prêt à être utilisé comme base d'apprentissage.
     \label{fig:strcu_dnn}
 \end{figure}
 
-La première étape de notre modèle est donc de normaliser la distribution de nos features. En effet, la distribution des valeurs pour chaque features n'est pas forcément "normale" et il est préférable de passer nos valeurs à travers une fonction pour la modifier.
+La première étape de notre modèle est donc de normaliser la distribution de nos features /footnote{Paramètres d'entrée du modèle}. En effet, la distribution des valeurs pour chaque features n'est pas forcément "normale" et il est préférable de passer nos valeurs à travers une fonction pour la modifier.
 
 \begin{figure}[H]
     \centering
@@ -215,7 +215,7 @@ La première étape de notre modèle est donc de normaliser la distribution de n
     \label{fig:fct_repartition}
 \end{figure}
 
-L'étape suivante est de normaliser les valeurs de nos features (cette fois ci, on ne modifie pas le label). Pour cela, il existe principalement deux types de normalisation : La normalisation min/max et la normalisation moyenne/écart-type.
+L'étape suivante est de normaliser les valeurs de nos features (cette fois ci, on ne modifie pas le label \footnote{Variable estimé en sortie du modèle}). Pour cela, il existe principalement deux types de normalisation : La normalisation min/max et la normalisation moyenne/écart-type.
 
 Cela permet entre autre d'assurer une cohérence entre les données et permet à l'exécution d'être plus rapide et meilleure.
 
@@ -286,7 +286,7 @@ La France est découpée en 15 500 IRIS (îlots Regroupés pour l'Information St
 
 \paragraph{}
 
-On peut alors créer un dataset où chaque élément correspond à un iris pour un magasin et agréger le reste de la donnée à cette structure. On cherchera alors à estimer une part de marché, qui correspond à la quantité de marché détenu par un magasin particulier. Chaque enseigne connait l'origine géographique d'une partie de son chiffre d'affaire (~20\%), on peut donc connaitre cette part de marché sous-évaluée, en divisant ce chiffre d'affaire tracé par la valeur du marché dans un IRIS donnée.
+On peut alors créer un dataset où chaque élément correspond à un IRIS pour un magasin et agréger le reste de la donnée à cette structure. On cherchera alors à estimer une part de marché, qui correspond à la quantité de marché détenu par un magasin particulier. Chaque enseigne connait l'origine géographique d'une partie de son chiffre d'affaire (~20\%), on peut donc connaitre cette part de marché sous-évaluée, en divisant ce chiffre d'affaire tracé par la valeur du marché dans un IRIS donnée.
 
 \begin{figure}[H]
     \centering
